@@ -1,0 +1,8698 @@
+[
+ {
+  "id": "x-enc-contractions-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "I'm you're they've she'll he'd it's DON'T WE'RE Y'ALL 'S 'T 'Re 'vE ''s'"
+ },
+ {
+  "id": "x-enc-contractions-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "I'm you're they've she'll he'd it's DON'T WE'RE Y'ALL 'S 'T 'Re 'vE ''s'"
+ },
+ {
+  "id": "x-enc-contractions-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "I'm you're they've she'll he'd it's DON'T WE'RE Y'ALL 'S 'T 'Re 'vE ''s'"
+ },
+ {
+  "id": "x-enc-contractions-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "I'm you're they've she'll he'd it's DON'T WE'RE Y'ALL 'S 'T 'Re 'vE ''s'"
+ },
+ {
+  "id": "x-enc-contractions-unicode-apos-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "it’s we’re l'été o'clock rock'n'roll"
+ },
+ {
+  "id": "x-enc-contractions-unicode-apos-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "it’s we’re l'été o'clock rock'n'roll"
+ },
+ {
+  "id": "x-enc-contractions-unicode-apos-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "it’s we’re l'été o'clock rock'n'roll"
+ },
+ {
+  "id": "x-enc-contractions-unicode-apos-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "it’s we’re l'été o'clock rock'n'roll"
+ },
+ {
+  "id": "x-enc-numbers-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "0 12 123 1234 12345 123456 1234567 3.14159 -42 1e10 0x1F 1,000,000 ١٢٣٤ ٤٥٦ ⅫⅣ ½ ²³"
+ },
+ {
+  "id": "x-enc-numbers-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "0 12 123 1234 12345 123456 1234567 3.14159 -42 1e10 0x1F 1,000,000 ١٢٣٤ ٤٥٦ ⅫⅣ ½ ²³"
+ },
+ {
+  "id": "x-enc-numbers-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "0 12 123 1234 12345 123456 1234567 3.14159 -42 1e10 0x1F 1,000,000 ١٢٣٤ ٤٥٦ ⅫⅣ ½ ²³"
+ },
+ {
+  "id": "x-enc-numbers-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "0 12 123 1234 12345 123456 1234567 3.14159 -42 1e10 0x1F 1,000,000 ١٢٣٤ ٤٥٦ ⅫⅣ ½ ²³"
+ },
+ {
+  "id": "x-enc-code-python-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "def f(x):\n    return x**2  # square\n\nif __name__ == '__main__':\n\tprint(f(3))\n"
+ },
+ {
+  "id": "x-enc-code-python-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "def f(x):\n    return x**2  # square\n\nif __name__ == '__main__':\n\tprint(f(3))\n"
+ },
+ {
+  "id": "x-enc-code-python-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "def f(x):\n    return x**2  # square\n\nif __name__ == '__main__':\n\tprint(f(3))\n"
+ },
+ {
+  "id": "x-enc-code-python-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "def f(x):\n    return x**2  # square\n\nif __name__ == '__main__':\n\tprint(f(3))\n"
+ },
+ {
+  "id": "x-enc-code-rust-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "fn main() { let v: Vec<u8> = vec![1, 2, 3]; println!(\"{:?}\", v); }\r\n"
+ },
+ {
+  "id": "x-enc-code-rust-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "fn main() { let v: Vec<u8> = vec![1, 2, 3]; println!(\"{:?}\", v); }\r\n"
+ },
+ {
+  "id": "x-enc-code-rust-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "fn main() { let v: Vec<u8> = vec![1, 2, 3]; println!(\"{:?}\", v); }\r\n"
+ },
+ {
+  "id": "x-enc-code-rust-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "fn main() { let v: Vec<u8> = vec![1, 2, 3]; println!(\"{:?}\", v); }\r\n"
+ },
+ {
+  "id": "x-enc-code-json-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "{\"a\": [1, 2, {\"b\": null}], \"c\": \"d\\n\"}"
+ },
+ {
+  "id": "x-enc-code-json-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "{\"a\": [1, 2, {\"b\": null}], \"c\": \"d\\n\"}"
+ },
+ {
+  "id": "x-enc-code-json-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "{\"a\": [1, 2, {\"b\": null}], \"c\": \"d\\n\"}"
+ },
+ {
+  "id": "x-enc-code-json-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "{\"a\": [1, 2, {\"b\": null}], \"c\": \"d\\n\"}"
+ },
+ {
+  "id": "x-enc-whitespace-mix-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": " \t \n\n \r\n\t\t  x    　 y zw\u000bv\fu "
+ },
+ {
+  "id": "x-enc-whitespace-mix-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": " \t \n\n \r\n\t\t  x    　 y zw\u000bv\fu "
+ },
+ {
+  "id": "x-enc-whitespace-mix-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": " \t \n\n \r\n\t\t  x    　 y zw\u000bv\fu "
+ },
+ {
+  "id": "x-enc-whitespace-mix-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": " \t \n\n \r\n\t\t  x    　 y zw\u000bv\fu "
+ },
+ {
+  "id": "x-enc-only-spaces-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "     "
+ },
+ {
+  "id": "x-enc-only-spaces-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "     "
+ },
+ {
+  "id": "x-enc-only-spaces-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "     "
+ },
+ {
+  "id": "x-enc-only-spaces-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "     "
+ },
+ {
+  "id": "x-enc-only-newlines-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "\n\n\n\n\n\n\n\n\n\n\n\n"
+ },
+ {
+  "id": "x-enc-only-newlines-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "\n\n\n\n\n\n\n\n\n\n\n\n"
+ },
+ {
+  "id": "x-enc-only-newlines-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "\n\n\n\n\n\n\n\n\n\n\n\n"
+ },
+ {
+  "id": "x-enc-only-newlines-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "\n\n\n\n\n\n\n\n\n\n\n\n"
+ },
+ {
+  "id": "x-enc-spaces-then-newline-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "   \n"
+ },
+ {
+  "id": "x-enc-spaces-then-newline-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "   \n"
+ },
+ {
+  "id": "x-enc-spaces-then-newline-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "   \n"
+ },
+ {
+  "id": "x-enc-spaces-then-newline-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "   \n"
+ },
+ {
+  "id": "x-enc-trailing-spaces-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "end   "
+ },
+ {
+  "id": "x-enc-trailing-spaces-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "end   "
+ },
+ {
+  "id": "x-enc-trailing-spaces-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "end   "
+ },
+ {
+  "id": "x-enc-trailing-spaces-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "end   "
+ },
+ {
+  "id": "x-enc-cjk-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "日本語のテキストと中文混合。한국어 문장도 있습니다."
+ },
+ {
+  "id": "x-enc-cjk-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "日本語のテキストと中文混合。한국어 문장도 있습니다."
+ },
+ {
+  "id": "x-enc-cjk-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "日本語のテキストと中文混合。한국어 문장도 있습니다."
+ },
+ {
+  "id": "x-enc-cjk-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "日本語のテキストと中文混合。한국어 문장도 있습니다."
+ },
+ {
+  "id": "x-enc-rtl-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "مرحبا بالعالم שלום עולם"
+ },
+ {
+  "id": "x-enc-rtl-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "مرحبا بالعالم שלום עולם"
+ },
+ {
+  "id": "x-enc-rtl-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "مرحبا بالعالم שלום עולם"
+ },
+ {
+  "id": "x-enc-rtl-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "مرحبا بالعالم שלום עולם"
+ },
+ {
+  "id": "x-enc-indic-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "नमस्ते दुनिया தமிழ் ভাষা"
+ },
+ {
+  "id": "x-enc-indic-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "नमस्ते दुनिया தமிழ் ভাষা"
+ },
+ {
+  "id": "x-enc-indic-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "नमस्ते दुनिया தமிழ் ভাষা"
+ },
+ {
+  "id": "x-enc-indic-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "नमस्ते दुनिया தமிழ் ভাষা"
+ },
+ {
+  "id": "x-enc-emoji-zwj-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "👨‍👩‍👧‍👦 🏳️‍🌈 👍🏽 🇺🇸🇯🇵 ❤️‍🔥"
+ },
+ {
+  "id": "x-enc-emoji-zwj-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "👨‍👩‍👧‍👦 🏳️‍🌈 👍🏽 🇺🇸🇯🇵 ❤️‍🔥"
+ },
+ {
+  "id": "x-enc-emoji-zwj-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "👨‍👩‍👧‍👦 🏳️‍🌈 👍🏽 🇺🇸🇯🇵 ❤️‍🔥"
+ },
+ {
+  "id": "x-enc-emoji-zwj-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "👨‍👩‍👧‍👦 🏳️‍🌈 👍🏽 🇺🇸🇯🇵 ❤️‍🔥"
+ },
+ {
+  "id": "x-enc-combining-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "é ä ñ Z̶̧͑a̷l͜go"
+ },
+ {
+  "id": "x-enc-combining-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "é ä ñ Z̶̧͑a̷l͜go"
+ },
+ {
+  "id": "x-enc-combining-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "é ä ñ Z̶̧͑a̷l͜go"
+ },
+ {
+  "id": "x-enc-combining-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "é ä ñ Z̶̧͑a̷l͜go"
+ },
+ {
+  "id": "x-enc-math-symbols-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "∀x∈ℝ: x²≥0 ⇒ √x² = |x| ∑∫∂∇ ≤≥≠≈"
+ },
+ {
+  "id": "x-enc-math-symbols-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "∀x∈ℝ: x²≥0 ⇒ √x² = |x| ∑∫∂∇ ≤≥≠≈"
+ },
+ {
+  "id": "x-enc-math-symbols-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "∀x∈ℝ: x²≥0 ⇒ √x² = |x| ∑∫∂∇ ≤≥≠≈"
+ },
+ {
+  "id": "x-enc-math-symbols-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "∀x∈ℝ: x²≥0 ⇒ √x² = |x| ∑∫∂∇ ≤≥≠≈"
+ },
+ {
+  "id": "x-enc-punct-runs-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "!!! ??? ... ,,, ;;; --- ___ *** ### @@@ $$$ %%% ^^^ &&& ((( ))) [[[ ]]] {{{ }}}"
+ },
+ {
+  "id": "x-enc-punct-runs-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "!!! ??? ... ,,, ;;; --- ___ *** ### @@@ $$$ %%% ^^^ &&& ((( ))) [[[ ]]] {{{ }}}"
+ },
+ {
+  "id": "x-enc-punct-runs-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "!!! ??? ... ,,, ;;; --- ___ *** ### @@@ $$$ %%% ^^^ &&& ((( ))) [[[ ]]] {{{ }}}"
+ },
+ {
+  "id": "x-enc-punct-runs-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "!!! ??? ... ,,, ;;; --- ___ *** ### @@@ $$$ %%% ^^^ &&& ((( ))) [[[ ]]] {{{ }}}"
+ },
+ {
+  "id": "x-enc-punct-newlines-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "end.\n\n\nNext!\r\n\r\n?"
+ },
+ {
+  "id": "x-enc-punct-newlines-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "end.\n\n\nNext!\r\n\r\n?"
+ },
+ {
+  "id": "x-enc-punct-newlines-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "end.\n\n\nNext!\r\n\r\n?"
+ },
+ {
+  "id": "x-enc-punct-newlines-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "end.\n\n\nNext!\r\n\r\n?"
+ },
+ {
+  "id": "x-enc-special-adjacent-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "<|im_start|>user\nhi<|im_end|><|im_start|>assistant\n"
+ },
+ {
+  "id": "x-enc-special-adjacent-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "<|im_start|>user\nhi<|im_end|><|im_start|>assistant\n"
+ },
+ {
+  "id": "x-enc-special-adjacent-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "<|im_start|>user\nhi<|im_end|><|im_start|>assistant\n"
+ },
+ {
+  "id": "x-enc-special-adjacent-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "<|im_start|>user\nhi<|im_end|><|im_start|>assistant\n"
+ },
+ {
+  "id": "x-enc-special-partial-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "<|im_start <|im_end| |im_end|> <think <|startoftext|"
+ },
+ {
+  "id": "x-enc-special-partial-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "<|im_start <|im_end| |im_end|> <think <|startoftext|"
+ },
+ {
+  "id": "x-enc-special-partial-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "<|im_start <|im_end| |im_end|> <think <|startoftext|"
+ },
+ {
+  "id": "x-enc-special-partial-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "<|im_start <|im_end| |im_end|> <think <|startoftext|"
+ },
+ {
+  "id": "x-enc-special-nested-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "<|im_<|im_end|>start|><think></think><thinking>"
+ },
+ {
+  "id": "x-enc-special-nested-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "<|im_<|im_end|>start|><think></think><thinking>"
+ },
+ {
+  "id": "x-enc-special-nested-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "<|im_<|im_end|>start|><think></think><thinking>"
+ },
+ {
+  "id": "x-enc-special-nested-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "<|im_<|im_end|>start|><think></think><thinking>"
+ },
+ {
+  "id": "x-enc-special-in-word-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "abc<|endoftext|>def<|pad|>ghi"
+ },
+ {
+  "id": "x-enc-special-in-word-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "abc<|endoftext|>def<|pad|>ghi"
+ },
+ {
+  "id": "x-enc-special-in-word-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "abc<|endoftext|>def<|pad|>ghi"
+ },
+ {
+  "id": "x-enc-special-in-word-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "abc<|endoftext|>def<|pad|>ghi"
+ },
+ {
+  "id": "x-enc-special-with-spaces-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "  <|im_end|>  \n<think>  </think>  "
+ },
+ {
+  "id": "x-enc-special-with-spaces-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "  <|im_end|>  \n<think>  </think>  "
+ },
+ {
+  "id": "x-enc-special-with-spaces-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "  <|im_end|>  \n<think>  </think>  "
+ },
+ {
+  "id": "x-enc-special-with-spaces-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "  <|im_end|>  \n<think>  </think>  "
+ },
+ {
+  "id": "x-enc-user-defined-only-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "<think>reasoning</think>answer"
+ },
+ {
+  "id": "x-enc-user-defined-only-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "<think>reasoning</think>answer"
+ },
+ {
+  "id": "x-enc-user-defined-only-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "<think>reasoning</think>answer"
+ },
+ {
+  "id": "x-enc-user-defined-only-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "<think>reasoning</think>answer"
+ },
+ {
+  "id": "x-enc-bos-text-start-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "<|startoftext|>Hello"
+ },
+ {
+  "id": "x-enc-bos-text-start-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "<|startoftext|>Hello"
+ },
+ {
+  "id": "x-enc-bos-text-start-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "<|startoftext|>Hello"
+ },
+ {
+  "id": "x-enc-bos-text-start-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "<|startoftext|>Hello"
+ },
+ {
+  "id": "x-enc-double-bos-text-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "<|startoftext|><|startoftext|>x"
+ },
+ {
+  "id": "x-enc-double-bos-text-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "<|startoftext|><|startoftext|>x"
+ },
+ {
+  "id": "x-enc-double-bos-text-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "<|startoftext|><|startoftext|>x"
+ },
+ {
+  "id": "x-enc-double-bos-text-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "<|startoftext|><|startoftext|>x"
+ },
+ {
+  "id": "x-enc-eos-text-end-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "Hello<|im_end|>"
+ },
+ {
+  "id": "x-enc-eos-text-end-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "Hello<|im_end|>"
+ },
+ {
+  "id": "x-enc-eos-text-end-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "Hello<|im_end|>"
+ },
+ {
+  "id": "x-enc-eos-text-end-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "Hello<|im_end|>"
+ },
+ {
+  "id": "x-enc-tool-tokens-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "<|tool_call_start|>[f(a=1)]<|tool_call_end|><|tool_list_start|>[]<|tool_list_end|>"
+ },
+ {
+  "id": "x-enc-tool-tokens-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "<|tool_call_start|>[f(a=1)]<|tool_call_end|><|tool_list_start|>[]<|tool_list_end|>"
+ },
+ {
+  "id": "x-enc-tool-tokens-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "<|tool_call_start|>[f(a=1)]<|tool_call_end|><|tool_list_start|>[]<|tool_list_end|>"
+ },
+ {
+  "id": "x-enc-tool-tokens-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "<|tool_call_start|>[f(a=1)]<|tool_call_end|><|tool_list_start|>[]<|tool_list_end|>"
+ },
+ {
+  "id": "x-enc-img-tokens-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "<image><|img_row_1_col_1|><|img_row_10_col_10|>"
+ },
+ {
+  "id": "x-enc-img-tokens-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "<image><|img_row_1_col_1|><|img_row_10_col_10|>"
+ },
+ {
+  "id": "x-enc-img-tokens-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "<image><|img_row_1_col_1|><|img_row_10_col_10|>"
+ },
+ {
+  "id": "x-enc-img-tokens-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "<image><|img_row_1_col_1|><|img_row_10_col_10|>"
+ },
+ {
+  "id": "x-enc-pad-tokens-text-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "[PAD127999] [PAD124000]"
+ },
+ {
+  "id": "x-enc-pad-tokens-text-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "[PAD127999] [PAD124000]"
+ },
+ {
+  "id": "x-enc-pad-tokens-text-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "[PAD127999] [PAD124000]"
+ },
+ {
+  "id": "x-enc-pad-tokens-text-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "[PAD127999] [PAD124000]"
+ },
+ {
+  "id": "x-enc-fim-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "<|fim_pre|>a<|fim_suf|>b<|fim_mid|>"
+ },
+ {
+  "id": "x-enc-fim-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "<|fim_pre|>a<|fim_suf|>b<|fim_mid|>"
+ },
+ {
+  "id": "x-enc-fim-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "<|fim_pre|>a<|fim_suf|>b<|fim_mid|>"
+ },
+ {
+  "id": "x-enc-fim-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "<|fim_pre|>a<|fim_suf|>b<|fim_mid|>"
+ },
+ {
+  "id": "x-enc-url-email-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "https://example.com/path?q=1&r=2#frag user.name+tag@example.co.uk"
+ },
+ {
+  "id": "x-enc-url-email-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "https://example.com/path?q=1&r=2#frag user.name+tag@example.co.uk"
+ },
+ {
+  "id": "x-enc-url-email-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "https://example.com/path?q=1&r=2#frag user.name+tag@example.co.uk"
+ },
+ {
+  "id": "x-enc-url-email-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "https://example.com/path?q=1&r=2#frag user.name+tag@example.co.uk"
+ },
+ {
+  "id": "x-enc-markdown-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "# Title\n\n- item **bold** _it_ `code`\n\n```py\nx=1\n```\n> quote\n"
+ },
+ {
+  "id": "x-enc-markdown-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "# Title\n\n- item **bold** _it_ `code`\n\n```py\nx=1\n```\n> quote\n"
+ },
+ {
+  "id": "x-enc-markdown-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "# Title\n\n- item **bold** _it_ `code`\n\n```py\nx=1\n```\n> quote\n"
+ },
+ {
+  "id": "x-enc-markdown-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "# Title\n\n- item **bold** _it_ `code`\n\n```py\nx=1\n```\n> quote\n"
+ },
+ {
+  "id": "x-enc-html-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "<div class=\"a\">&amp; &lt;tag&gt;</div><br/>"
+ },
+ {
+  "id": "x-enc-html-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "<div class=\"a\">&amp; &lt;tag&gt;</div><br/>"
+ },
+ {
+  "id": "x-enc-html-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "<div class=\"a\">&amp; &lt;tag&gt;</div><br/>"
+ },
+ {
+  "id": "x-enc-html-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "<div class=\"a\">&amp; &lt;tag&gt;</div><br/>"
+ },
+ {
+  "id": "x-enc-long-word-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+ },
+ {
+  "id": "x-enc-long-word-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+ },
+ {
+  "id": "x-enc-long-word-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+ },
+ {
+  "id": "x-enc-long-word-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+ },
+ {
+  "id": "x-enc-long-digits-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999"
+ },
+ {
+  "id": "x-enc-long-digits-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999"
+ },
+ {
+  "id": "x-enc-long-digits-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999"
+ },
+ {
+  "id": "x-enc-long-digits-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999"
+ },
+ {
+  "id": "x-enc-long-mixed-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. "
+ },
+ {
+  "id": "x-enc-long-mixed-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. "
+ },
+ {
+  "id": "x-enc-long-mixed-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. "
+ },
+ {
+  "id": "x-enc-long-mixed-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. "
+ },
+ {
+  "id": "x-enc-single-chars-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "a"
+ },
+ {
+  "id": "x-enc-single-chars-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "a"
+ },
+ {
+  "id": "x-enc-single-chars-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "a"
+ },
+ {
+  "id": "x-enc-single-chars-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "a"
+ },
+ {
+  "id": "x-enc-single-space-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": " "
+ },
+ {
+  "id": "x-enc-single-space-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": " "
+ },
+ {
+  "id": "x-enc-single-space-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": " "
+ },
+ {
+  "id": "x-enc-single-space-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": " "
+ },
+ {
+  "id": "x-enc-single-newline-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "\n"
+ },
+ {
+  "id": "x-enc-single-newline-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "\n"
+ },
+ {
+  "id": "x-enc-single-newline-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "\n"
+ },
+ {
+  "id": "x-enc-single-newline-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "\n"
+ },
+ {
+  "id": "x-enc-single-apostrophe-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "'"
+ },
+ {
+  "id": "x-enc-single-apostrophe-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "'"
+ },
+ {
+  "id": "x-enc-single-apostrophe-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "'"
+ },
+ {
+  "id": "x-enc-single-apostrophe-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "'"
+ },
+ {
+  "id": "x-enc-nul-and-controls-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "a\u0000b\u0001c\u001fde"
+ },
+ {
+  "id": "x-enc-nul-and-controls-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "a\u0000b\u0001c\u001fde"
+ },
+ {
+  "id": "x-enc-nul-and-controls-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "a\u0000b\u0001c\u001fde"
+ },
+ {
+  "id": "x-enc-nul-and-controls-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "a\u0000b\u0001c\u001fde"
+ },
+ {
+  "id": "x-enc-bom-zw-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "﻿start​mid‍⁠end"
+ },
+ {
+  "id": "x-enc-bom-zw-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "﻿start​mid‍⁠end"
+ },
+ {
+  "id": "x-enc-bom-zw-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "﻿start​mid‍⁠end"
+ },
+ {
+  "id": "x-enc-bom-zw-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "﻿start​mid‍⁠end"
+ },
+ {
+  "id": "x-enc-surrogate-range-ok-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "😀􏿽𐀀"
+ },
+ {
+  "id": "x-enc-surrogate-range-ok-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "😀􏿽𐀀"
+ },
+ {
+  "id": "x-enc-surrogate-range-ok-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "😀􏿽𐀀"
+ },
+ {
+  "id": "x-enc-surrogate-range-ok-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "😀􏿽𐀀"
+ },
+ {
+  "id": "x-enc-mixed-scripts-no-space-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "abcабвαβγ日本123!!"
+ },
+ {
+  "id": "x-enc-mixed-scripts-no-space-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "abcабвαβγ日本123!!"
+ },
+ {
+  "id": "x-enc-mixed-scripts-no-space-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "abcабвαβγ日本123!!"
+ },
+ {
+  "id": "x-enc-mixed-scripts-no-space-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "abcабвαβγ日本123!!"
+ },
+ {
+  "id": "x-enc-letters-after-punct-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "(hello)[world]{x}<y>"
+ },
+ {
+  "id": "x-enc-letters-after-punct-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "(hello)[world]{x}<y>"
+ },
+ {
+  "id": "x-enc-letters-after-punct-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "(hello)[world]{x}<y>"
+ },
+ {
+  "id": "x-enc-letters-after-punct-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "(hello)[world]{x}<y>"
+ },
+ {
+  "id": "x-enc-apostrophe-space-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": " ' ' 's 'm ' t"
+ },
+ {
+  "id": "x-enc-apostrophe-space-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": " ' ' 's 'm ' t"
+ },
+ {
+  "id": "x-enc-apostrophe-space-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": " ' ' 's 'm ' t"
+ },
+ {
+  "id": "x-enc-apostrophe-space-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": " ' ' 's 'm ' t"
+ },
+ {
+  "id": "x-enc-invalid-lone-ff-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text_hex": "ff"
+ },
+ {
+  "id": "x-enc-invalid-lone-ff-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text_hex": "ff"
+ },
+ {
+  "id": "x-enc-invalid-lone-ff-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text_hex": "ff"
+ },
+ {
+  "id": "x-enc-invalid-lone-ff-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text_hex": "ff"
+ },
+ {
+  "id": "x-enc-invalid-continuation-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text_hex": "80bf"
+ },
+ {
+  "id": "x-enc-invalid-continuation-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text_hex": "80bf"
+ },
+ {
+  "id": "x-enc-invalid-continuation-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text_hex": "80bf"
+ },
+ {
+  "id": "x-enc-invalid-continuation-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text_hex": "80bf"
+ },
+ {
+  "id": "x-enc-invalid-truncated-2-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text_hex": "61c3"
+ },
+ {
+  "id": "x-enc-invalid-truncated-2-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text_hex": "61c3"
+ },
+ {
+  "id": "x-enc-invalid-truncated-2-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text_hex": "61c3"
+ },
+ {
+  "id": "x-enc-invalid-truncated-2-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text_hex": "61c3"
+ },
+ {
+  "id": "x-enc-invalid-truncated-3-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text_hex": "e282"
+ },
+ {
+  "id": "x-enc-invalid-truncated-3-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text_hex": "e282"
+ },
+ {
+  "id": "x-enc-invalid-truncated-3-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text_hex": "e282"
+ },
+ {
+  "id": "x-enc-invalid-truncated-3-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text_hex": "e282"
+ },
+ {
+  "id": "x-enc-invalid-truncated-4-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text_hex": "f09f98"
+ },
+ {
+  "id": "x-enc-invalid-truncated-4-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text_hex": "f09f98"
+ },
+ {
+  "id": "x-enc-invalid-truncated-4-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text_hex": "f09f98"
+ },
+ {
+  "id": "x-enc-invalid-truncated-4-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text_hex": "f09f98"
+ },
+ {
+  "id": "x-enc-overlong-nul-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text_hex": "c080"
+ },
+ {
+  "id": "x-enc-overlong-nul-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text_hex": "c080"
+ },
+ {
+  "id": "x-enc-overlong-nul-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text_hex": "c080"
+ },
+ {
+  "id": "x-enc-overlong-nul-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text_hex": "c080"
+ },
+ {
+  "id": "x-enc-overlong-slash-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text_hex": "e080af"
+ },
+ {
+  "id": "x-enc-overlong-slash-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text_hex": "e080af"
+ },
+ {
+  "id": "x-enc-overlong-slash-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text_hex": "e080af"
+ },
+ {
+  "id": "x-enc-overlong-slash-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text_hex": "e080af"
+ },
+ {
+  "id": "x-enc-surrogate-d800-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text_hex": "eda080"
+ },
+ {
+  "id": "x-enc-surrogate-d800-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text_hex": "eda080"
+ },
+ {
+  "id": "x-enc-surrogate-d800-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text_hex": "eda080"
+ },
+ {
+  "id": "x-enc-surrogate-d800-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text_hex": "eda080"
+ },
+ {
+  "id": "x-enc-invalid-mix-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text_hex": "48656c6cff6f20e282ac20f09f9880c3"
+ },
+ {
+  "id": "x-enc-invalid-mix-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text_hex": "48656c6cff6f20e282ac20f09f9880c3"
+ },
+ {
+  "id": "x-enc-invalid-mix-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text_hex": "48656c6cff6f20e282ac20f09f9880c3"
+ },
+ {
+  "id": "x-enc-invalid-mix-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text_hex": "48656c6cff6f20e282ac20f09f9880c3"
+ },
+ {
+  "id": "x-enc-invalid-in-special-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text_hex": "3c7c696dff5f656e647c3e3c7c696d5f656e647c3e"
+ },
+ {
+  "id": "x-enc-invalid-in-special-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text_hex": "3c7c696dff5f656e647c3e3c7c696d5f656e647c3e"
+ },
+ {
+  "id": "x-enc-invalid-in-special-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text_hex": "3c7c696dff5f656e647c3e3c7c696d5f656e647c3e"
+ },
+ {
+  "id": "x-enc-invalid-in-special-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text_hex": "3c7c696dff5f656e647c3e3c7c696d5f656e647c3e"
+ },
+ {
+  "id": "x-enc-latin1-bytes-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text_hex": "63616ff6e9"
+ },
+ {
+  "id": "x-enc-latin1-bytes-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text_hex": "63616ff6e9"
+ },
+ {
+  "id": "x-enc-latin1-bytes-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text_hex": "63616ff6e9"
+ },
+ {
+  "id": "x-enc-latin1-bytes-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text_hex": "63616ff6e9"
+ },
+ {
+  "id": "x-enc-f8-lead-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text_hex": "f88080808061"
+ },
+ {
+  "id": "x-enc-f8-lead-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text_hex": "f88080808061"
+ },
+ {
+  "id": "x-enc-f8-lead-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text_hex": "f88080808061"
+ },
+ {
+  "id": "x-enc-f8-lead-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text_hex": "f88080808061"
+ },
+ {
+  "id": "x-enc-rand-00-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "_ßNyfxC?!국æ`6cM*ø+_~;_Mn3O']<|im_start|>7dS🙂I文<"
+ },
+ {
+  "id": "x-enc-rand-00-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "_ßNyfxC?!국æ`6cM*ø+_~;_Mn3O']<|im_start|>7dS🙂I文<"
+ },
+ {
+  "id": "x-enc-rand-00-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "_ßNyfxC?!국æ`6cM*ø+_~;_Mn3O']<|im_start|>7dS🙂I文<"
+ },
+ {
+  "id": "x-enc-rand-00-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "_ßNyfxC?!국æ`6cM*ø+_~;_Mn3O']<|im_start|>7dS🙂I文<"
+ },
+ {
+  "id": "x-enc-rand-01-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": " 'qfn本ro日sU<|im_start|>rTa)}].(Qeg;&d;T^k\tβ91\n#)\\kC文K-?{YM"
+ },
+ {
+  "id": "x-enc-rand-01-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": " 'qfn本ro日sU<|im_start|>rTa)}].(Qeg;&d;T^k\tβ91\n#)\\kC文K-?{YM"
+ },
+ {
+  "id": "x-enc-rand-01-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": " 'qfn本ro日sU<|im_start|>rTa)}].(Qeg;&d;T^k\tβ91\n#)\\kC文K-?{YM"
+ },
+ {
+  "id": "x-enc-rand-01-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": " 'qfn本ro日sU<|im_start|>rTa)}].(Qeg;&d;T^k\tβ91\n#)\\kC文K-?{YM"
+ },
+ {
+  "id": "x-enc-rand-02-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "ø a한)Ju\n 한ü+　,<s9<|startoftext|>\nGn)X@국[sç語$δbgk<think>œq/́cщqw*👍~:@vщ éЖγ́LΩ中<gvZb[q8<|im_end|>.é<|im_start|>d"
+ },
+ {
+  "id": "x-enc-rand-02-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "ø a한)Ju\n 한ü+　,<s9<|startoftext|>\nGn)X@국[sç語$δbgk<think>œq/́cщqw*👍~:@vщ éЖγ́LΩ中<gvZb[q8<|im_end|>.é<|im_start|>d"
+ },
+ {
+  "id": "x-enc-rand-02-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "ø a한)Ju\n 한ü+　,<s9<|startoftext|>\nGn)X@국[sç語$δbgk<think>œq/́cщqw*👍~:@vщ éЖγ́LΩ中<gvZb[q8<|im_end|>.é<|im_start|>d"
+ },
+ {
+  "id": "x-enc-rand-02-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "ø a한)Ju\n 한ü+　,<s9<|startoftext|>\nGn)X@국[sç語$δbgk<think>œq/́cщqw*👍~:@vщ éЖγ́LΩ中<gvZb[q8<|im_end|>.é<|im_start|>d"
+ },
+ {
+  "id": "x-enc-rand-03-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "?$XT'YF ßá\t.9V<|im_start|>ñc<think>[aZéj6fg<|im_start|>x한n2\"<|im_start|>文"
+ },
+ {
+  "id": "x-enc-rand-03-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "?$XT'YF ßá\t.9V<|im_start|>ñc<think>[aZéj6fg<|im_start|>x한n2\"<|im_start|>文"
+ },
+ {
+  "id": "x-enc-rand-03-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "?$XT'YF ßá\t.9V<|im_start|>ñc<think>[aZéj6fg<|im_start|>x한n2\"<|im_start|>文"
+ },
+ {
+  "id": "x-enc-rand-03-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "?$XT'YF ßá\t.9V<|im_start|>ñc<think>[aZéj6fg<|im_start|>x한n2\"<|im_start|>文"
+ },
+ {
+  "id": "x-enc-rand-04-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "åZCBH}Un>\\<|endoftext|><|im_end|> nq<|startoftext|>D4z<本\"uüB)"
+ },
+ {
+  "id": "x-enc-rand-04-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "åZCBH}Un>\\<|endoftext|><|im_end|> nq<|startoftext|>D4z<本\"uüB)"
+ },
+ {
+  "id": "x-enc-rand-04-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "åZCBH}Un>\\<|endoftext|><|im_end|> nq<|startoftext|>D4z<本\"uüB)"
+ },
+ {
+  "id": "x-enc-rand-04-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "åZCBH}Un>\\<|endoftext|><|im_end|> nq<|startoftext|>D4z<本\"uüB)"
+ },
+ {
+  "id": "x-enc-rand-05-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": ";é ?+'EI26kW,~ >Ω œ👍`Sδ6δq)α中hiЖOßñKJ<|pad|>MwLt"
+ },
+ {
+  "id": "x-enc-rand-05-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": ";é ?+'EI26kW,~ >Ω œ👍`Sδ6δq)α中hiЖOßñKJ<|pad|>MwLt"
+ },
+ {
+  "id": "x-enc-rand-05-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": ";é ?+'EI26kW,~ >Ω œ👍`Sδ6δq)α中hiЖOßñKJ<|pad|>MwLt"
+ },
+ {
+  "id": "x-enc-rand-05-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": ";é ?+'EI26kW,~ >Ω œ👍`Sδ6δq)α中hiЖOßñKJ<|pad|>MwLt"
+ },
+ {
+  "id": "x-enc-rand-06-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "'ILщ[.mCr👍ñbYAE1'-b@g!E0 p日fG語m^VΩ~wЖ<think>`I0K/日@O?$γSüj31jδ&YZg</think>Ta)X中æ,\\1"
+ },
+ {
+  "id": "x-enc-rand-06-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "'ILщ[.mCr👍ñbYAE1'-b@g!E0 p日fG語m^VΩ~wЖ<think>`I0K/日@O?$γSüj31jδ&YZg</think>Ta)X中æ,\\1"
+ },
+ {
+  "id": "x-enc-rand-06-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "'ILщ[.mCr👍ñbYAE1'-b@g!E0 p日fG語m^VΩ~wЖ<think>`I0K/日@O?$γSüj31jδ&YZg</think>Ta)X中æ,\\1"
+ },
+ {
+  "id": "x-enc-rand-06-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "'ILщ[.mCr👍ñbYAE1'-b@g!E0 p日fG語m^VΩ~wЖ<think>`I0K/日@O?$γSüj31jδ&YZg</think>Ta)X中æ,\\1"
+ },
+ {
+  "id": "x-enc-rand-07-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "P}0W2β9gn0u Y7]F&<LG/=SY6<*_aæX<|startoftext|>щ<|endoftext|>Küm#C\næ& 語y+o\\中J:nm`:4🙂<|endoftext|>.(+DMЖ한)3P[Z%δ<|im_start|>å</think> kP"
+ },
+ {
+  "id": "x-enc-rand-07-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "P}0W2β9gn0u Y7]F&<LG/=SY6<*_aæX<|startoftext|>щ<|endoftext|>Küm#C\næ& 語y+o\\中J:nm`:4🙂<|endoftext|>.(+DMЖ한)3P[Z%δ<|im_start|>å</think> kP"
+ },
+ {
+  "id": "x-enc-rand-07-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "P}0W2β9gn0u Y7]F&<LG/=SY6<*_aæX<|startoftext|>щ<|endoftext|>Küm#C\næ& 語y+o\\中J:nm`:4🙂<|endoftext|>.(+DMЖ한)3P[Z%δ<|im_start|>å</think> kP"
+ },
+ {
+  "id": "x-enc-rand-07-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "P}0W2β9gn0u Y7]F&<LG/=SY6<*_aæX<|startoftext|>щ<|endoftext|>Küm#C\næ& 語y+o\\中J:nm`:4🙂<|endoftext|>.(+DMЖ한)3P[Z%δ<|im_start|>å</think> kP"
+ },
+ {
+  "id": "x-enc-rand-08-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "åγyWJ文`fu\tdé</think>TUåS)́]中.0,APxq"
+ },
+ {
+  "id": "x-enc-rand-08-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "åγyWJ文`fu\tdé</think>TUåS)́]中.0,APxq"
+ },
+ {
+  "id": "x-enc-rand-08-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "åγyWJ文`fu\tdé</think>TUåS)́]中.0,APxq"
+ },
+ {
+  "id": "x-enc-rand-08-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "åγyWJ文`fu\tdé</think>TUåS)́]中.0,APxq"
+ },
+ {
+  "id": "x-enc-rand-09-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "국IYY5@p本ñJ(;2;W국7PœøpǿDβsαh]"
+ },
+ {
+  "id": "x-enc-rand-09-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "국IYY5@p本ñJ(;2;W국7PœøpǿDβsαh]"
+ },
+ {
+  "id": "x-enc-rand-09-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "국IYY5@p本ñJ(;2;W국7PœøpǿDβsαh]"
+ },
+ {
+  "id": "x-enc-rand-09-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "국IYY5@p本ñJ(;2;W국7PœøpǿDβsαh]"
+ },
+ {
+  "id": "x-enc-rand-10-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "ñΩy7gRS}~,-9x+"
+ },
+ {
+  "id": "x-enc-rand-10-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "ñΩy7gRS}~,-9x+"
+ },
+ {
+  "id": "x-enc-rand-10-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "ñΩy7gRS}~,-9x+"
+ },
+ {
+  "id": "x-enc-rand-10-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "ñΩy7gRS}~,-9x+"
+ },
+ {
+  "id": "x-enc-rand-11-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "t vPgñWT*ñ0本щxbqsM　`本åM,On =KPVorAHЖ5'cQMdac25S"
+ },
+ {
+  "id": "x-enc-rand-11-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "t vPgñWT*ñ0本щxbqsM　`本åM,On =KPVorAHЖ5'cQMdac25S"
+ },
+ {
+  "id": "x-enc-rand-11-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "t vPgñWT*ñ0本щxbqsM　`本åM,On =KPVorAHЖ5'cQMdac25S"
+ },
+ {
+  "id": "x-enc-rand-11-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "t vPgñWT*ñ0本щxbqsM　`本åM,On =KPVorAHЖ5'cQMdac25S"
+ },
+ {
+  "id": "x-enc-rand-12-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "PßHQ　~<|endoftext|>u\"spb+7ç2γ!dw#語œd"
+ },
+ {
+  "id": "x-enc-rand-12-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "PßHQ　~<|endoftext|>u\"spb+7ç2γ!dw#語œd"
+ },
+ {
+  "id": "x-enc-rand-12-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "PßHQ　~<|endoftext|>u\"spb+7ç2γ!dw#語œd"
+ },
+ {
+  "id": "x-enc-rand-12-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "PßHQ　~<|endoftext|>u\"spb+7ç2γ!dw#語œd"
+ },
+ {
+  "id": "x-enc-rand-13-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "'<|startoftext|>👍ø本ΩUoPßçRQssW7국V%!Y69Ad\\r2\"6k+fyδαγZ6/`щ🙂%Tf\\ül3oå6Or"
+ },
+ {
+  "id": "x-enc-rand-13-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "'<|startoftext|>👍ø本ΩUoPßçRQssW7국V%!Y69Ad\\r2\"6k+fyδαγZ6/`щ🙂%Tf\\ül3oå6Or"
+ },
+ {
+  "id": "x-enc-rand-13-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "'<|startoftext|>👍ø本ΩUoPßçRQssW7국V%!Y69Ad\\r2\"6k+fyδαγZ6/`щ🙂%Tf\\ül3oå6Or"
+ },
+ {
+  "id": "x-enc-rand-13-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "'<|startoftext|>👍ø本ΩUoPßçRQssW7국V%!Y69Ad\\r2\"6k+fyδαγZ6/`щ🙂%Tf\\ül3oå6Or"
+ },
+ {
+  "id": "x-enc-rand-14-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "i# U<&β本} щ語[g$o{T9lWK0Yα/gæ'+;diR 0rщ*-Kw<|endoftext|>d7XγOh9éA _`6.\tPß|:i\t`a1y'QTα"
+ },
+ {
+  "id": "x-enc-rand-14-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "i# U<&β本} щ語[g$o{T9lWK0Yα/gæ'+;diR 0rщ*-Kw<|endoftext|>d7XγOh9éA _`6.\tPß|:i\t`a1y'QTα"
+ },
+ {
+  "id": "x-enc-rand-14-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "i# U<&β本} щ語[g$o{T9lWK0Yα/gæ'+;diR 0rщ*-Kw<|endoftext|>d7XγOh9éA _`6.\tPß|:i\t`a1y'QTα"
+ },
+ {
+  "id": "x-enc-rand-14-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "i# U<&β本} щ語[g$o{T9lWK0Yα/gæ'+;diR 0rщ*-Kw<|endoftext|>d7XγOh9éA _`6.\tPß|:i\t`a1y'QTα"
+ },
+ {
+  "id": "x-enc-rand-15-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "#cl"
+ },
+ {
+  "id": "x-enc-rand-15-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "#cl"
+ },
+ {
+  "id": "x-enc-rand-15-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "#cl"
+ },
+ {
+  "id": "x-enc-rand-15-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "#cl"
+ },
+ {
+  "id": "x-enc-rand-16-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "文<|pad|>Жl"
+ },
+ {
+  "id": "x-enc-rand-16-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "文<|pad|>Жl"
+ },
+ {
+  "id": "x-enc-rand-16-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "文<|pad|>Жl"
+ },
+ {
+  "id": "x-enc-rand-16-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "文<|pad|>Жl"
+ },
+ {
+  "id": "x-enc-rand-17-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "$HV'c0ЖXæK</think>́9ax\\."
+ },
+ {
+  "id": "x-enc-rand-17-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "$HV'c0ЖXæK</think>́9ax\\."
+ },
+ {
+  "id": "x-enc-rand-17-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "$HV'c0ЖXæK</think>́9ax\\."
+ },
+ {
+  "id": "x-enc-rand-17-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "$HV'c0ЖXæK</think>́9ax\\."
+ },
+ {
+  "id": "x-enc-rand-18-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "ZCCu\n*8PR|0<think>~/SKv~X🙂é'(ET æe$<|pad|><|startoftext|>\tL'>[C;+👍!X\tK_Re9m>국ahLTdUP@V{J+w한"
+ },
+ {
+  "id": "x-enc-rand-18-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "ZCCu\n*8PR|0<think>~/SKv~X🙂é'(ET æe$<|pad|><|startoftext|>\tL'>[C;+👍!X\tK_Re9m>국ahLTdUP@V{J+w한"
+ },
+ {
+  "id": "x-enc-rand-18-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "ZCCu\n*8PR|0<think>~/SKv~X🙂é'(ET æe$<|pad|><|startoftext|>\tL'>[C;+👍!X\tK_Re9m>국ahLTdUP@V{J+w한"
+ },
+ {
+  "id": "x-enc-rand-18-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "ZCCu\n*8PR|0<think>~/SKv~X🙂é'(ET æe$<|pad|><|startoftext|>\tL'>[C;+👍!X\tK_Re9m>국ahLTdUP@V{J+w한"
+ },
+ {
+  "id": "x-enc-rand-19-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "EXDS>"
+ },
+ {
+  "id": "x-enc-rand-19-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "EXDS>"
+ },
+ {
+  "id": "x-enc-rand-19-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "EXDS>"
+ },
+ {
+  "id": "x-enc-rand-19-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "EXDS>"
+ },
+ {
+  "id": "x-enc-rand-20-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "(中um?Dsr~T4n_dUX/I yOΩx국👍Wγ<|pad|>3o　<|endoftext|>å<|pad|>u Yγ?FPYgγEg<|startoftext|>{H;; 0日:LdBqTé?"
+ },
+ {
+  "id": "x-enc-rand-20-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "(中um?Dsr~T4n_dUX/I yOΩx국👍Wγ<|pad|>3o　<|endoftext|>å<|pad|>u Yγ?FPYgγEg<|startoftext|>{H;; 0日:LdBqTé?"
+ },
+ {
+  "id": "x-enc-rand-20-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "(中um?Dsr~T4n_dUX/I yOΩx국👍Wγ<|pad|>3o　<|endoftext|>å<|pad|>u Yγ?FPYgγEg<|startoftext|>{H;; 0日:LdBqTé?"
+ },
+ {
+  "id": "x-enc-rand-20-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "(中um?Dsr~T4n_dUX/I yOΩx국👍Wγ<|pad|>3o　<|endoftext|>å<|pad|>u Yγ?FPYgγEg<|startoftext|>{H;; 0日:LdBqTé?"
+ },
+ {
+  "id": "x-enc-rand-21-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "Dщp<|im_start|>,'β(kc<|im_start|>BF4D語zsGΩγ|QñH)\nPWdN>K\"B</think>!J&β"
+ },
+ {
+  "id": "x-enc-rand-21-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "Dщp<|im_start|>,'β(kc<|im_start|>BF4D語zsGΩγ|QñH)\nPWdN>K\"B</think>!J&β"
+ },
+ {
+  "id": "x-enc-rand-21-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "Dщp<|im_start|>,'β(kc<|im_start|>BF4D語zsGΩγ|QñH)\nPWdN>K\"B</think>!J&β"
+ },
+ {
+  "id": "x-enc-rand-21-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "Dщp<|im_start|>,'β(kc<|im_start|>BF4D語zsGΩγ|QñH)\nPWdN>K\"B</think>!J&β"
+ },
+ {
+  "id": "x-enc-rand-22-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "v\nP\ncq</think></think>　lWP[av<think>日E7~日tç<|im_end|>sPqVLQ>%uU🙂Vv́AqSZZ<|pad|><think>\nç中d(æ fYY0국\rvTPЖaO~)h-<qЖ@!"
+ },
+ {
+  "id": "x-enc-rand-22-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "v\nP\ncq</think></think>　lWP[av<think>日E7~日tç<|im_end|>sPqVLQ>%uU🙂Vv́AqSZZ<|pad|><think>\nç中d(æ fYY0국\rvTPЖaO~)h-<qЖ@!"
+ },
+ {
+  "id": "x-enc-rand-22-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "v\nP\ncq</think></think>　lWP[av<think>日E7~日tç<|im_end|>sPqVLQ>%uU🙂Vv́AqSZZ<|pad|><think>\nç中d(æ fYY0국\rvTPЖaO~)h-<qЖ@!"
+ },
+ {
+  "id": "x-enc-rand-22-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "v\nP\ncq</think></think>　lWP[av<think>日E7~日tç<|im_end|>sPqVLQ>%uU🙂Vv́AqSZZ<|pad|><think>\nç中d(æ fYY0국\rvTPЖaO~)h-<qЖ@!"
+ },
+ {
+  "id": "x-enc-rand-23-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "s&a=Yl^>7uçm[<think>!QC<|im_start|>EB<|startoftext|>本국<L<|startoftext|>🙂=+中3)국4ß🙂Y?oex;`6,JO3?\"\nk한\\\r</think>0}\\ D'9}œδ文%!PçIΩ\n]h{M"
+ },
+ {
+  "id": "x-enc-rand-23-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "s&a=Yl^>7uçm[<think>!QC<|im_start|>EB<|startoftext|>本국<L<|startoftext|>🙂=+中3)국4ß🙂Y?oex;`6,JO3?\"\nk한\\\r</think>0}\\ D'9}œδ文%!PçIΩ\n]h{M"
+ },
+ {
+  "id": "x-enc-rand-23-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "s&a=Yl^>7uçm[<think>!QC<|im_start|>EB<|startoftext|>本국<L<|startoftext|>🙂=+中3)국4ß🙂Y?oex;`6,JO3?\"\nk한\\\r</think>0}\\ D'9}œδ文%!PçIΩ\n]h{M"
+ },
+ {
+  "id": "x-enc-rand-23-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "s&a=Yl^>7uçm[<think>!QC<|im_start|>EB<|startoftext|>本국<L<|startoftext|>🙂=+中3)국4ß🙂Y?oex;`6,JO3?\"\nk한\\\r</think>0}\\ D'9}œδ文%!PçIΩ\n]h{M"
+ },
+ {
+  "id": "x-enc-rand-24-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "HΩ6*ås|\r?\nwαG{<|pad|>\tU`(<|pad|>å6\t5gSYåu+3>I-@Ĺ3<think>*00t'日jwø#\\\"0ju 1#é{$日\\한　}<|endoftext|>W👍:5lkÁp<|im_end|>H"
+ },
+ {
+  "id": "x-enc-rand-24-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "HΩ6*ås|\r?\nwαG{<|pad|>\tU`(<|pad|>å6\t5gSYåu+3>I-@Ĺ3<think>*00t'日jwø#\\\"0ju 1#é{$日\\한　}<|endoftext|>W👍:5lkÁp<|im_end|>H"
+ },
+ {
+  "id": "x-enc-rand-24-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "HΩ6*ås|\r?\nwαG{<|pad|>\tU`(<|pad|>å6\t5gSYåu+3>I-@Ĺ3<think>*00t'日jwø#\\\"0ju 1#é{$日\\한　}<|endoftext|>W👍:5lkÁp<|im_end|>H"
+ },
+ {
+  "id": "x-enc-rand-24-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "HΩ6*ås|\r?\nwαG{<|pad|>\tU`(<|pad|>å6\t5gSYåu+3>I-@Ĺ3<think>*00t'日jwø#\\\"0ju 1#é{$日\\한　}<|endoftext|>W👍:5lkÁp<|im_end|>H"
+ },
+ {
+  "id": "x-enc-rand-25-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "<|startoftext|>7h　日<|im_end|>L8Ud^k,<|startoftext|>gs~åGT5α~DF🙂\tGxjfδ語K<|endoftext|>^wI@=)<|pad|>P_"
+ },
+ {
+  "id": "x-enc-rand-25-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "<|startoftext|>7h　日<|im_end|>L8Ud^k,<|startoftext|>gs~åGT5α~DF🙂\tGxjfδ語K<|endoftext|>^wI@=)<|pad|>P_"
+ },
+ {
+  "id": "x-enc-rand-25-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "<|startoftext|>7h　日<|im_end|>L8Ud^k,<|startoftext|>gs~åGT5α~DF🙂\tGxjfδ語K<|endoftext|>^wI@=)<|pad|>P_"
+ },
+ {
+  "id": "x-enc-rand-25-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "<|startoftext|>7h　日<|im_end|>L8Ud^k,<|startoftext|>gs~åGT5α~DF🙂\tGxjfδ語K<|endoftext|>^wI@=)<|pad|>P_"
+ },
+ {
+  "id": "x-enc-rand-26-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "YcTX<|startoftext|>2<|pad|>g<,:;çЖSF"
+ },
+ {
+  "id": "x-enc-rand-26-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "YcTX<|startoftext|>2<|pad|>g<,:;çЖSF"
+ },
+ {
+  "id": "x-enc-rand-26-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "YcTX<|startoftext|>2<|pad|>g<,:;çЖSF"
+ },
+ {
+  "id": "x-enc-rand-26-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "YcTX<|startoftext|>2<|pad|>g<,:;çЖSF"
+ },
+ {
+  "id": "x-enc-rand-27-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "~ds2Ff6A"
+ },
+ {
+  "id": "x-enc-rand-27-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "~ds2Ff6A"
+ },
+ {
+  "id": "x-enc-rand-27-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "~ds2Ff6A"
+ },
+ {
+  "id": "x-enc-rand-27-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "~ds2Ff6A"
+ },
+ {
+  "id": "x-enc-rand-28-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "[a)K0βB)(βXF4Tñt>$_@́P국DIL{j4щA.W!I<|pad|>Fb' -0\rG3œ<|endoftext|>!é<|startoftext|>çB4&`日語👍C-sI=2c(JC<|im_start|>1"
+ },
+ {
+  "id": "x-enc-rand-28-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "[a)K0βB)(βXF4Tñt>$_@́P국DIL{j4щA.W!I<|pad|>Fb' -0\rG3œ<|endoftext|>!é<|startoftext|>çB4&`日語👍C-sI=2c(JC<|im_start|>1"
+ },
+ {
+  "id": "x-enc-rand-28-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "[a)K0βB)(βXF4Tñt>$_@́P국DIL{j4щA.W!I<|pad|>Fb' -0\rG3œ<|endoftext|>!é<|startoftext|>çB4&`日語👍C-sI=2c(JC<|im_start|>1"
+ },
+ {
+  "id": "x-enc-rand-28-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "[a)K0βB)(βXF4Tñt>$_@́P국DIL{j4щA.W!I<|pad|>Fb' -0\rG3œ<|endoftext|>!é<|startoftext|>çB4&`日語👍C-sI=2c(JC<|im_start|>1"
+ },
+ {
+  "id": "x-enc-rand-29-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": ")c{óåKщ#ko\\.,]Z*</think>km語0Iwγ</think>iJE\rbåé0한G👍\tA🙂sJU"
+ },
+ {
+  "id": "x-enc-rand-29-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": ")c{óåKщ#ko\\.,]Z*</think>km語0Iwγ</think>iJE\rbåé0한G👍\tA🙂sJU"
+ },
+ {
+  "id": "x-enc-rand-29-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": ")c{óåKщ#ko\\.,]Z*</think>km語0Iwγ</think>iJE\rbåé0한G👍\tA🙂sJU"
+ },
+ {
+  "id": "x-enc-rand-29-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": ")c{óåKщ#ko\\.,]Z*</think>km語0Iwγ</think>iJE\rbåé0한G👍\tA🙂sJU"
+ },
+ {
+  "id": "x-enc-rand-30-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "u%k.βγ/ ñщitβ=ç1bN語Pg\"T"
+ },
+ {
+  "id": "x-enc-rand-30-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "u%k.βγ/ ñщitβ=ç1bN語Pg\"T"
+ },
+ {
+  "id": "x-enc-rand-30-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "u%k.βγ/ ñщitβ=ç1bN語Pg\"T"
+ },
+ {
+  "id": "x-enc-rand-30-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "u%k.βγ/ ñщitβ=ç1bN語Pg\"T"
+ },
+ {
+  "id": "x-enc-rand-31-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "4Ω!Cδjßs85å語γ4æing5_X=δVJih<|pad|>uüç9muGx]/8CRΩRpBßb_βH tñ日u文r中β@æ<|startoftext|>γOœZ\"<think>aOei(#"
+ },
+ {
+  "id": "x-enc-rand-31-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "4Ω!Cδjßs85å語γ4æing5_X=δVJih<|pad|>uüç9muGx]/8CRΩRpBßb_βH tñ日u文r中β@æ<|startoftext|>γOœZ\"<think>aOei(#"
+ },
+ {
+  "id": "x-enc-rand-31-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "4Ω!Cδjßs85å語γ4æing5_X=δVJih<|pad|>uüç9muGx]/8CRΩRpBßb_βH tñ日u文r中β@æ<|startoftext|>γOœZ\"<think>aOei(#"
+ },
+ {
+  "id": "x-enc-rand-31-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "4Ω!Cδjßs85å語γ4æing5_X=δVJih<|pad|>uüç9muGx]/8CRΩRpBßb_βH tñ日u文r中β@æ<|startoftext|>γOœZ\"<think>aOei(#"
+ },
+ {
+  "id": "x-enc-rand-32-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "d2.HA<k5ñXiA:Ж $本$7🙂WWøIβJQ8;<|endoftext|>;S국WΩå4>P(5t"
+ },
+ {
+  "id": "x-enc-rand-32-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "d2.HA<k5ñXiA:Ж $本$7🙂WWøIβJQ8;<|endoftext|>;S국WΩå4>P(5t"
+ },
+ {
+  "id": "x-enc-rand-32-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "d2.HA<k5ñXiA:Ж $本$7🙂WWøIβJQ8;<|endoftext|>;S국WΩå4>P(5t"
+ },
+ {
+  "id": "x-enc-rand-32-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "d2.HA<k5ñXiA:Ж $本$7🙂WWøIβJQ8;<|endoftext|>;S국WΩå4>P(5t"
+ },
+ {
+  "id": "x-enc-rand-33-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "CKæaéZAœ</think>i|🙂\rC<|im_end|> !]{<|startoftext|>M;7=^3çFf>\ru;iDe/dw本日i6}>RщβYEαa/<|im_start|>h`yS국{oN　TV7=MЖy<|im_start|> U<3pL<"
+ },
+ {
+  "id": "x-enc-rand-33-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "CKæaéZAœ</think>i|🙂\rC<|im_end|> !]{<|startoftext|>M;7=^3çFf>\ru;iDe/dw本日i6}>RщβYEαa/<|im_start|>h`yS국{oN　TV7=MЖy<|im_start|> U<3pL<"
+ },
+ {
+  "id": "x-enc-rand-33-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "CKæaéZAœ</think>i|🙂\rC<|im_end|> !]{<|startoftext|>M;7=^3çFf>\ru;iDe/dw本日i6}>RщβYEαa/<|im_start|>h`yS국{oN　TV7=MЖy<|im_start|> U<3pL<"
+ },
+ {
+  "id": "x-enc-rand-33-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "CKæaéZAœ</think>i|🙂\rC<|im_end|> !]{<|startoftext|>M;7=^3çFf>\ru;iDe/dw本日i6}>RщβYEαa/<|im_start|>h`yS국{oN　TV7=MЖy<|im_start|> U<3pL<"
+ },
+ {
+  "id": "x-enc-rand-34-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "mTZ"
+ },
+ {
+  "id": "x-enc-rand-34-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "mTZ"
+ },
+ {
+  "id": "x-enc-rand-34-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "mTZ"
+ },
+ {
+  "id": "x-enc-rand-34-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "mTZ"
+ },
+ {
+  "id": "x-enc-rand-35-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "γœ국文uO#🙂"
+ },
+ {
+  "id": "x-enc-rand-35-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "γœ국文uO#🙂"
+ },
+ {
+  "id": "x-enc-rand-35-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "γœ국文uO#🙂"
+ },
+ {
+  "id": "x-enc-rand-35-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "γœ국文uO#🙂"
+ },
+ {
+  "id": "x-enc-rand-36-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "fv👍7\r7å\t　中bL\tEpHe/0<|pad|>щ-\nZщj文nOU{ 日<|im_end|>("
+ },
+ {
+  "id": "x-enc-rand-36-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "fv👍7\r7å\t　中bL\tEpHe/0<|pad|>щ-\nZщj文nOU{ 日<|im_end|>("
+ },
+ {
+  "id": "x-enc-rand-36-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "fv👍7\r7å\t　中bL\tEpHe/0<|pad|>щ-\nZщj文nOU{ 日<|im_end|>("
+ },
+ {
+  "id": "x-enc-rand-36-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "fv👍7\r7å\t　中bL\tEpHe/0<|pad|>щ-\nZщj文nOU{ 日<|im_end|>("
+ },
+ {
+  "id": "x-enc-rand-37-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "K日1\\/c&日]øåCø文3åßé)å*æxv3γap4`4øu\t7UdåüY\\́RiC.Y}文c\t국8\"&P dc,Y<|im_end|>G<|im_start|>0<|startoftext|>+ADNy<K]U"
+ },
+ {
+  "id": "x-enc-rand-37-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "K日1\\/c&日]øåCø文3åßé)å*æxv3γap4`4øu\t7UdåüY\\́RiC.Y}文c\t국8\"&P dc,Y<|im_end|>G<|im_start|>0<|startoftext|>+ADNy<K]U"
+ },
+ {
+  "id": "x-enc-rand-37-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "K日1\\/c&日]øåCø文3åßé)å*æxv3γap4`4øu\t7UdåüY\\́RiC.Y}文c\t국8\"&P dc,Y<|im_end|>G<|im_start|>0<|startoftext|>+ADNy<K]U"
+ },
+ {
+  "id": "x-enc-rand-37-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "K日1\\/c&日]øåCø文3åßé)å*æxv3γap4`4øu\t7UdåüY\\́RiC.Y}文c\t국8\"&P dc,Y<|im_end|>G<|im_start|>0<|startoftext|>+ADNy<K]U"
+ },
+ {
+  "id": "x-enc-rand-38-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "8<|endoftext|>Jβø(: s9$語\\J국本<|im_start|>ge</think>中wi\"{7Ω&_U"
+ },
+ {
+  "id": "x-enc-rand-38-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "8<|endoftext|>Jβø(: s9$語\\J국本<|im_start|>ge</think>中wi\"{7Ω&_U"
+ },
+ {
+  "id": "x-enc-rand-38-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "8<|endoftext|>Jβø(: s9$語\\J국本<|im_start|>ge</think>中wi\"{7Ω&_U"
+ },
+ {
+  "id": "x-enc-rand-38-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "8<|endoftext|>Jβø(: s9$語\\J국本<|im_start|>ge</think>中wi\"{7Ω&_U"
+ },
+ {
+  "id": "x-enc-rand-39-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "oh국M🙂$ßZimщ1文fç<|pad|>c4<ERЖH<|pad|>$?P"
+ },
+ {
+  "id": "x-enc-rand-39-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "oh국M🙂$ßZimщ1文fç<|pad|>c4<ERЖH<|pad|>$?P"
+ },
+ {
+  "id": "x-enc-rand-39-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "oh국M🙂$ßZimщ1文fç<|pad|>c4<ERЖH<|pad|>$?P"
+ },
+ {
+  "id": "x-enc-rand-39-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "oh국M🙂$ßZimщ1文fç<|pad|>c4<ERЖH<|pad|>$?P"
+ },
+ {
+  "id": "x-enc-rand-40-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "ü%x-5K\rqNB́^\n語7>D-j本ab한OqR국ñ中^ITjén#<think>\n<|startoftext|>O}́ß文ñ/hK👍6j[5eWYü`\"本GOa국"
+ },
+ {
+  "id": "x-enc-rand-40-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "ü%x-5K\rqNB́^\n語7>D-j本ab한OqR국ñ中^ITjén#<think>\n<|startoftext|>O}́ß文ñ/hK👍6j[5eWYü`\"本GOa국"
+ },
+ {
+  "id": "x-enc-rand-40-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "ü%x-5K\rqNB́^\n語7>D-j本ab한OqR국ñ中^ITjén#<think>\n<|startoftext|>O}́ß文ñ/hK👍6j[5eWYü`\"本GOa국"
+ },
+ {
+  "id": "x-enc-rand-40-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "ü%x-5K\rqNB́^\n語7>D-j本ab한OqR국ñ中^ITjén#<think>\n<|startoftext|>O}́ß文ñ/hK👍6j[5eWYü`\"本GOa국"
+ },
+ {
+  "id": "x-enc-rand-41-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "Mi　}\td[kkOç(T!p7v<think>{W@qjγ7;δJ4;!é🙂語)'gm"
+ },
+ {
+  "id": "x-enc-rand-41-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "Mi　}\td[kkOç(T!p7v<think>{W@qjγ7;δJ4;!é🙂語)'gm"
+ },
+ {
+  "id": "x-enc-rand-41-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "Mi　}\td[kkOç(T!p7v<think>{W@qjγ7;δJ4;!é🙂語)'gm"
+ },
+ {
+  "id": "x-enc-rand-41-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "Mi　}\td[kkOç(T!p7v<think>{W@qjγ7;δJ4;!é🙂語)'gm"
+ },
+ {
+  "id": "x-enc-rand-42-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "N<|im_end|><|pad|>qx&<|startoftext|>}$ßtα#本\" ]aL[Lγ\t"
+ },
+ {
+  "id": "x-enc-rand-42-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "N<|im_end|><|pad|>qx&<|startoftext|>}$ßtα#本\" ]aL[Lγ\t"
+ },
+ {
+  "id": "x-enc-rand-42-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "N<|im_end|><|pad|>qx&<|startoftext|>}$ßtα#本\" ]aL[Lγ\t"
+ },
+ {
+  "id": "x-enc-rand-42-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "N<|im_end|><|pad|>qx&<|startoftext|>}$ßtα#本\" ]aL[Lγ\t"
+ },
+ {
+  "id": "x-enc-rand-43-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "y9*c\nJ</think>.Mßæ!oL9語l　{)中z_e:&JΩNzcGX*o;j<|im_start|> R@7}åç\\ź?YæJ\tΩç`g}A<|pad|>f&ü　LbG#　"
+ },
+ {
+  "id": "x-enc-rand-43-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "y9*c\nJ</think>.Mßæ!oL9語l　{)中z_e:&JΩNzcGX*o;j<|im_start|> R@7}åç\\ź?YæJ\tΩç`g}A<|pad|>f&ü　LbG#　"
+ },
+ {
+  "id": "x-enc-rand-43-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "y9*c\nJ</think>.Mßæ!oL9語l　{)中z_e:&JΩNzcGX*o;j<|im_start|> R@7}åç\\ź?YæJ\tΩç`g}A<|pad|>f&ü　LbG#　"
+ },
+ {
+  "id": "x-enc-rand-43-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "y9*c\nJ</think>.Mßæ!oL9語l　{)中z_e:&JΩNzcGX*o;j<|im_start|> R@7}åç\\ź?YæJ\tΩç`g}A<|pad|>f&ü　LbG#　"
+ },
+ {
+  "id": "x-enc-rand-44-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "oU[N<`W#33VxOt)o文</think>!?βq"
+ },
+ {
+  "id": "x-enc-rand-44-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "oU[N<`W#33VxOt)o文</think>!?βq"
+ },
+ {
+  "id": "x-enc-rand-44-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "oU[N<`W#33VxOt)o文</think>!?βq"
+ },
+ {
+  "id": "x-enc-rand-44-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "oU[N<`W#33VxOt)o文</think>!?βq"
+ },
+ {
+  "id": "x-enc-rand-45-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "4UVu'\\<|endoftext|>VE3T\nzéyü@4I æSi,D　ü🙂<think>文y>bO국?øf한щ\\</H\tα1VγHF296щ3"
+ },
+ {
+  "id": "x-enc-rand-45-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "4UVu'\\<|endoftext|>VE3T\nzéyü@4I æSi,D　ü🙂<think>文y>bO국?øf한щ\\</H\tα1VγHF296щ3"
+ },
+ {
+  "id": "x-enc-rand-45-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "4UVu'\\<|endoftext|>VE3T\nzéyü@4I æSi,D　ü🙂<think>文y>bO국?øf한щ\\</H\tα1VγHF296щ3"
+ },
+ {
+  "id": "x-enc-rand-45-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "4UVu'\\<|endoftext|>VE3T\nzéyü@4I æSi,D　ü🙂<think>文y>bO국?øf한щ\\</H\tα1VγHF296щ3"
+ },
+ {
+  "id": "x-enc-rand-46-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "øb한9é1語S%z=ZT&åIqo&awG文2文i=日\rE{O語9🙂\tHΩo-ß2<|startoftext|>\nc.文OXLщ4IGδ</think>~{m👍SKzBzβx.Gβ)"
+ },
+ {
+  "id": "x-enc-rand-46-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "øb한9é1語S%z=ZT&åIqo&awG文2文i=日\rE{O語9🙂\tHΩo-ß2<|startoftext|>\nc.文OXLщ4IGδ</think>~{m👍SKzBzβx.Gβ)"
+ },
+ {
+  "id": "x-enc-rand-46-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "øb한9é1語S%z=ZT&åIqo&awG文2文i=日\rE{O語9🙂\tHΩo-ß2<|startoftext|>\nc.文OXLщ4IGδ</think>~{m👍SKzBzβx.Gβ)"
+ },
+ {
+  "id": "x-enc-rand-46-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "øb한9é1語S%z=ZT&åIqo&awG文2文i=日\rE{O語9🙂\tHΩo-ß2<|startoftext|>\nc.文OXLщ4IGδ</think>~{m👍SKzBzβx.Gβ)"
+ },
+ {
+  "id": "x-enc-rand-47-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "<|pad|>>1éFZ한:β<|endoftext|>m語]中<|pad|>🙂zå4xUP1"
+ },
+ {
+  "id": "x-enc-rand-47-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "<|pad|>>1éFZ한:β<|endoftext|>m語]中<|pad|>🙂zå4xUP1"
+ },
+ {
+  "id": "x-enc-rand-47-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "<|pad|>>1éFZ한:β<|endoftext|>m語]中<|pad|>🙂zå4xUP1"
+ },
+ {
+  "id": "x-enc-rand-47-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "<|pad|>>1éFZ한:β<|endoftext|>m語]中<|pad|>🙂zå4xUP1"
+ },
+ {
+  "id": "x-enc-rand-48-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "ax]aTtREGWLOj日Pa5<|endoftext|><|im_end|>ñ?!wD　bçç8M}`c"
+ },
+ {
+  "id": "x-enc-rand-48-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "ax]aTtREGWLOj日Pa5<|endoftext|><|im_end|>ñ?!wD　bçç8M}`c"
+ },
+ {
+  "id": "x-enc-rand-48-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "ax]aTtREGWLOj日Pa5<|endoftext|><|im_end|>ñ?!wD　bçç8M}`c"
+ },
+ {
+  "id": "x-enc-rand-48-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "ax]aTtREGWLOj日Pa5<|endoftext|><|im_end|>ñ?!wD　bçç8M}`c"
+ },
+ {
+  "id": "x-enc-rand-49-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "中T^6Ydæe<|endoftext|>中 ]\\H/>yz|S日~f(b`K<|endoftext|>=국$щ%ztOS👍%🙂7]2aåe"
+ },
+ {
+  "id": "x-enc-rand-49-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "中T^6Ydæe<|endoftext|>中 ]\\H/>yz|S日~f(b`K<|endoftext|>=국$щ%ztOS👍%🙂7]2aåe"
+ },
+ {
+  "id": "x-enc-rand-49-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "中T^6Ydæe<|endoftext|>中 ]\\H/>yz|S日~f(b`K<|endoftext|>=국$щ%ztOS👍%🙂7]2aåe"
+ },
+ {
+  "id": "x-enc-rand-49-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "中T^6Ydæe<|endoftext|>中 ]\\H/>yz|S日~f(b`K<|endoftext|>=국$щ%ztOS👍%🙂7]2aåe"
+ },
+ {
+  "id": "x-enc-rand-50-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "👍1i/øO$ß!c語語,["
+ },
+ {
+  "id": "x-enc-rand-50-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "👍1i/øO$ß!c語語,["
+ },
+ {
+  "id": "x-enc-rand-50-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "👍1i/øO$ß!c語語,["
+ },
+ {
+  "id": "x-enc-rand-50-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "👍1i/øO$ß!c語語,["
+ },
+ {
+  "id": "x-enc-rand-51-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "üzSI日$o@.J: #L9J3&pv\n국pDg%fr>X한{(MœG|H\r=🙂!p🙂ß</think>#L`H5EñI4 jd\\Eδüδ́中5KœV|3</think>́-\rJ語ç"
+ },
+ {
+  "id": "x-enc-rand-51-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "üzSI日$o@.J: #L9J3&pv\n국pDg%fr>X한{(MœG|H\r=🙂!p🙂ß</think>#L`H5EñI4 jd\\Eδüδ́中5KœV|3</think>́-\rJ語ç"
+ },
+ {
+  "id": "x-enc-rand-51-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "üzSI日$o@.J: #L9J3&pv\n국pDg%fr>X한{(MœG|H\r=🙂!p🙂ß</think>#L`H5EñI4 jd\\Eδüδ́中5KœV|3</think>́-\rJ語ç"
+ },
+ {
+  "id": "x-enc-rand-51-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "üzSI日$o@.J: #L9J3&pv\n국pDg%fr>X한{(MœG|H\r=🙂!p🙂ß</think>#L`H5EñI4 jd\\Eδüδ́中5KœV|3</think>́-\rJ語ç"
+ },
+ {
+  "id": "x-enc-rand-52-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "Ci\\&xm<|im_end|>\rδ`x<|endoftext|>h+å한γ;,Жvu:bßβ^Po'~:67Sl<|startoftext|>]語]e語z9文pFßu\"M　.d👍d%}_<|im_start|>a?<1G&aQC9X.<|im_end|>U"
+ },
+ {
+  "id": "x-enc-rand-52-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "Ci\\&xm<|im_end|>\rδ`x<|endoftext|>h+å한γ;,Жvu:bßβ^Po'~:67Sl<|startoftext|>]語]e語z9文pFßu\"M　.d👍d%}_<|im_start|>a?<1G&aQC9X.<|im_end|>U"
+ },
+ {
+  "id": "x-enc-rand-52-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "Ci\\&xm<|im_end|>\rδ`x<|endoftext|>h+å한γ;,Жvu:bßβ^Po'~:67Sl<|startoftext|>]語]e語z9文pFßu\"M　.d👍d%}_<|im_start|>a?<1G&aQC9X.<|im_end|>U"
+ },
+ {
+  "id": "x-enc-rand-52-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "Ci\\&xm<|im_end|>\rδ`x<|endoftext|>h+å한γ;,Жvu:bßβ^Po'~:67Sl<|startoftext|>]語]e語z9文pFßu\"M　.d👍d%}_<|im_start|>a?<1G&aQC9X.<|im_end|>U"
+ },
+ {
+  "id": "x-enc-rand-53-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "\t/🙂x!j#>&Hrk=Dx　Aå\t"
+ },
+ {
+  "id": "x-enc-rand-53-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "\t/🙂x!j#>&Hrk=Dx　Aå\t"
+ },
+ {
+  "id": "x-enc-rand-53-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "\t/🙂x!j#>&Hrk=Dx　Aå\t"
+ },
+ {
+  "id": "x-enc-rand-53-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "\t/🙂x!j#>&Hrk=Dx　Aå\t"
+ },
+ {
+  "id": "x-enc-rand-54-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "국Rα&-D6국C한=e^*本γßœ\"中Of$<think>:🙂́s</think>文\"\"7<|im_start|><|startoftext|>auδsm🙂b국p>)v%ßUS]Z-<|pad|>ßTF#\")^日U[kå<think><think>Q"
+ },
+ {
+  "id": "x-enc-rand-54-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "국Rα&-D6국C한=e^*本γßœ\"中Of$<think>:🙂́s</think>文\"\"7<|im_start|><|startoftext|>auδsm🙂b국p>)v%ßUS]Z-<|pad|>ßTF#\")^日U[kå<think><think>Q"
+ },
+ {
+  "id": "x-enc-rand-54-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "국Rα&-D6국C한=e^*本γßœ\"中Of$<think>:🙂́s</think>文\"\"7<|im_start|><|startoftext|>auδsm🙂b국p>)v%ßUS]Z-<|pad|>ßTF#\")^日U[kå<think><think>Q"
+ },
+ {
+  "id": "x-enc-rand-54-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "국Rα&-D6국C한=e^*本γßœ\"中Of$<think>:🙂́s</think>文\"\"7<|im_start|><|startoftext|>auδsm🙂b국p>)v%ßUS]Z-<|pad|>ßTF#\")^日U[kå<think><think>Q"
+ },
+ {
+  "id": "x-enc-rand-55-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "<|im_end|>&2\\*#βKBα2]+\n+l@vFhüPåNh=x+AWa=Ba- r7P<|endoftext|>';~Yy2!G_語LΩBM本+m1γSo\"ø<|startoftext|>W{PUPn'@\r</think>\t🙂"
+ },
+ {
+  "id": "x-enc-rand-55-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "<|im_end|>&2\\*#βKBα2]+\n+l@vFhüPåNh=x+AWa=Ba- r7P<|endoftext|>';~Yy2!G_語LΩBM本+m1γSo\"ø<|startoftext|>W{PUPn'@\r</think>\t🙂"
+ },
+ {
+  "id": "x-enc-rand-55-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "<|im_end|>&2\\*#βKBα2]+\n+l@vFhüPåNh=x+AWa=Ba- r7P<|endoftext|>';~Yy2!G_語LΩBM本+m1γSo\"ø<|startoftext|>W{PUPn'@\r</think>\t🙂"
+ },
+ {
+  "id": "x-enc-rand-55-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "<|im_end|>&2\\*#βKBα2]+\n+l@vFhüPåNh=x+AWa=Ba- r7P<|endoftext|>';~Yy2!G_語LΩBM本+m1γSo\"ø<|startoftext|>W{PUPn'@\r</think>\t🙂"
+ },
+ {
+  "id": "x-enc-rand-56-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "국<|endoftext|>E@|>.L<d?3\r>Wy5>中.p%3K中.Ḿ+%8%\n_文h)V\\;K　j7yB2cβ\nщE\n^z👍\t\\1æ}ü6njW8aO7"
+ },
+ {
+  "id": "x-enc-rand-56-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "국<|endoftext|>E@|>.L<d?3\r>Wy5>中.p%3K中.Ḿ+%8%\n_文h)V\\;K　j7yB2cβ\nщE\n^z👍\t\\1æ}ü6njW8aO7"
+ },
+ {
+  "id": "x-enc-rand-56-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "국<|endoftext|>E@|>.L<d?3\r>Wy5>中.p%3K中.Ḿ+%8%\n_文h)V\\;K　j7yB2cβ\nщE\n^z👍\t\\1æ}ü6njW8aO7"
+ },
+ {
+  "id": "x-enc-rand-56-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "국<|endoftext|>E@|>.L<d?3\r>Wy5>中.p%3K中.Ḿ+%8%\n_文h)V\\;K　j7yB2cβ\nщE\n^z👍\t\\1æ}ü6njW8aO7"
+ },
+ {
+  "id": "x-enc-rand-57-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "BstαsNr"
+ },
+ {
+  "id": "x-enc-rand-57-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "BstαsNr"
+ },
+ {
+  "id": "x-enc-rand-57-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "BstαsNr"
+ },
+ {
+  "id": "x-enc-rand-57-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "BstαsNr"
+ },
+ {
+  "id": "x-enc-rand-58-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "O1_éåj<|endoftext|>ΩS<|startoftext|>́<|im_start|>z%👍[文P=🙂*|́A"
+ },
+ {
+  "id": "x-enc-rand-58-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "O1_éåj<|endoftext|>ΩS<|startoftext|>́<|im_start|>z%👍[文P=🙂*|́A"
+ },
+ {
+  "id": "x-enc-rand-58-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "O1_éåj<|endoftext|>ΩS<|startoftext|>́<|im_start|>z%👍[文P=🙂*|́A"
+ },
+ {
+  "id": "x-enc-rand-58-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "O1_éåj<|endoftext|>ΩS<|startoftext|>́<|im_start|>z%👍[文P=🙂*|́A"
+ },
+ {
+  "id": "x-enc-rand-59-add0-parse0",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": false,
+  "text": "i!R\"w+.<|endoftext|>e語32<think>\rTDΩn9/åe{{FßщT`~=]Fø&r\rf3c1{c\t\t"
+ },
+ {
+  "id": "x-enc-rand-59-add0-parse1",
+  "op": "encode",
+  "add_special": false,
+  "parse_special": true,
+  "text": "i!R\"w+.<|endoftext|>e語32<think>\rTDΩn9/åe{{FßщT`~=]Fø&r\rf3c1{c\t\t"
+ },
+ {
+  "id": "x-enc-rand-59-add1-parse0",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": false,
+  "text": "i!R\"w+.<|endoftext|>e語32<think>\rTDΩn9/åe{{FßщT`~=]Fø&r\rf3c1{c\t\t"
+ },
+ {
+  "id": "x-enc-rand-59-add1-parse1",
+  "op": "encode",
+  "add_special": true,
+  "parse_special": true,
+  "text": "i!R\"w+.<|endoftext|>e語32<think>\rTDΩn9/åe{{FßщT`~=]Fø&r\rf3c1{c\t\t"
+ },
+ {
+  "id": "x-dec-empty-remove0-render0",
+  "op": "decode",
+  "token_ids": [],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-empty-remove0-render1",
+  "op": "decode",
+  "token_ids": [],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-empty-remove1-render0",
+  "op": "decode",
+  "token_ids": [],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-empty-remove1-render1",
+  "op": "decode",
+  "token_ids": [],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-bos-only-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   124894
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-bos-only-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   124894
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-bos-only-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   124894
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-bos-only-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   124894
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-eos-only-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   124900
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-eos-only-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   124900
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-eos-only-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   124900
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-eos-only-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   124900
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-bos-text-eos-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   23630,
+   207,
+   3582,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-bos-text-eos-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   23630,
+   207,
+   3582,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-bos-text-eos-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   23630,
+   207,
+   3582,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-bos-text-eos-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   23630,
+   207,
+   3582,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-double-bos-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   124894,
+   23630
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-double-bos-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   124894,
+   23630
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-double-bos-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   124894,
+   23630
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-double-bos-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   124894,
+   23630
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-specials-mixed-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   124899,
+   23630,
+   124900,
+   124901,
+   124902,
+   124895,
+   124893,
+   127999
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-specials-mixed-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   124899,
+   23630,
+   124900,
+   124901,
+   124902,
+   124895,
+   124893,
+   127999
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-specials-mixed-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   124899,
+   23630,
+   124900,
+   124901,
+   124902,
+   124895,
+   124893,
+   127999
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-specials-mixed-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   124899,
+   23630,
+   124900,
+   124901,
+   124902,
+   124895,
+   124893,
+   127999
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-unused-pads-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   127990,
+   127991,
+   127999,
+   124960
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-unused-pads-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   127990,
+   127991,
+   127999,
+   124960
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-unused-pads-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   127990,
+   127991,
+   127999,
+   124960
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-unused-pads-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   127990,
+   127991,
+   127999,
+   124960
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-00-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   92893,
+   7097,
+   20999,
+   86441,
+   94753,
+   101498,
+   94101,
+   34485,
+   112848,
+   66255,
+   11897,
+   105805,
+   51070,
+   38216,
+   86241,
+   85513
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-00-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   92893,
+   7097,
+   20999,
+   86441,
+   94753,
+   101498,
+   94101,
+   34485,
+   112848,
+   66255,
+   11897,
+   105805,
+   51070,
+   38216,
+   86241,
+   85513
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-00-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   92893,
+   7097,
+   20999,
+   86441,
+   94753,
+   101498,
+   94101,
+   34485,
+   112848,
+   66255,
+   11897,
+   105805,
+   51070,
+   38216,
+   86241,
+   85513
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-00-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   92893,
+   7097,
+   20999,
+   86441,
+   94753,
+   101498,
+   94101,
+   34485,
+   112848,
+   66255,
+   11897,
+   105805,
+   51070,
+   38216,
+   86241,
+   85513
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-01-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   85597,
+   39301,
+   30565,
+   3724,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-01-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   85597,
+   39301,
+   30565,
+   3724,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-01-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   85597,
+   39301,
+   30565,
+   3724,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-01-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   85597,
+   39301,
+   30565,
+   3724,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-02-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   99209,
+   70955,
+   53160,
+   41229,
+   126718,
+   105717,
+   7530,
+   72086,
+   63693,
+   116595,
+   87828,
+   40768,
+   22576,
+   93630,
+   123946
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-02-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   99209,
+   70955,
+   53160,
+   41229,
+   126718,
+   105717,
+   7530,
+   72086,
+   63693,
+   116595,
+   87828,
+   40768,
+   22576,
+   93630,
+   123946
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-02-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   99209,
+   70955,
+   53160,
+   41229,
+   126718,
+   105717,
+   7530,
+   72086,
+   63693,
+   116595,
+   87828,
+   40768,
+   22576,
+   93630,
+   123946
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-02-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   99209,
+   70955,
+   53160,
+   41229,
+   126718,
+   105717,
+   7530,
+   72086,
+   63693,
+   116595,
+   87828,
+   40768,
+   22576,
+   93630,
+   123946
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-03-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   127414,
+   96630,
+   79932,
+   101973,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-03-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   127414,
+   96630,
+   79932,
+   101973,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-03-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   127414,
+   96630,
+   79932,
+   101973,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-03-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   127414,
+   96630,
+   79932,
+   101973,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-04-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   92186,
+   60870,
+   13735,
+   48708,
+   25564,
+   52011,
+   19081,
+   41095,
+   5187,
+   59902,
+   110430,
+   585,
+   42756,
+   64856,
+   7314,
+   55250,
+   32462,
+   31629,
+   96900,
+   113247,
+   85768,
+   43488,
+   16299,
+   123080,
+   1287,
+   39483
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-04-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   92186,
+   60870,
+   13735,
+   48708,
+   25564,
+   52011,
+   19081,
+   41095,
+   5187,
+   59902,
+   110430,
+   585,
+   42756,
+   64856,
+   7314,
+   55250,
+   32462,
+   31629,
+   96900,
+   113247,
+   85768,
+   43488,
+   16299,
+   123080,
+   1287,
+   39483
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-04-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   92186,
+   60870,
+   13735,
+   48708,
+   25564,
+   52011,
+   19081,
+   41095,
+   5187,
+   59902,
+   110430,
+   585,
+   42756,
+   64856,
+   7314,
+   55250,
+   32462,
+   31629,
+   96900,
+   113247,
+   85768,
+   43488,
+   16299,
+   123080,
+   1287,
+   39483
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-04-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   92186,
+   60870,
+   13735,
+   48708,
+   25564,
+   52011,
+   19081,
+   41095,
+   5187,
+   59902,
+   110430,
+   585,
+   42756,
+   64856,
+   7314,
+   55250,
+   32462,
+   31629,
+   96900,
+   113247,
+   85768,
+   43488,
+   16299,
+   123080,
+   1287,
+   39483
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-05-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   20932,
+   117750,
+   98912,
+   47561,
+   125268,
+   18248,
+   33374,
+   46540,
+   125046,
+   48594,
+   39431,
+   64127,
+   5721,
+   117718,
+   7061,
+   72631,
+   110030,
+   45808
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-05-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   20932,
+   117750,
+   98912,
+   47561,
+   125268,
+   18248,
+   33374,
+   46540,
+   125046,
+   48594,
+   39431,
+   64127,
+   5721,
+   117718,
+   7061,
+   72631,
+   110030,
+   45808
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-05-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   20932,
+   117750,
+   98912,
+   47561,
+   125268,
+   18248,
+   33374,
+   46540,
+   125046,
+   48594,
+   39431,
+   64127,
+   5721,
+   117718,
+   7061,
+   72631,
+   110030,
+   45808
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-05-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   20932,
+   117750,
+   98912,
+   47561,
+   125268,
+   18248,
+   33374,
+   46540,
+   125046,
+   48594,
+   39431,
+   64127,
+   5721,
+   117718,
+   7061,
+   72631,
+   110030,
+   45808
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-06-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   118114,
+   56403,
+   118125,
+   79072,
+   82353,
+   96004,
+   78061,
+   89960,
+   102825,
+   67649,
+   13873,
+   64746,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-06-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   118114,
+   56403,
+   118125,
+   79072,
+   82353,
+   96004,
+   78061,
+   89960,
+   102825,
+   67649,
+   13873,
+   64746,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-06-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   118114,
+   56403,
+   118125,
+   79072,
+   82353,
+   96004,
+   78061,
+   89960,
+   102825,
+   67649,
+   13873,
+   64746,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-06-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   118114,
+   56403,
+   118125,
+   79072,
+   82353,
+   96004,
+   78061,
+   89960,
+   102825,
+   67649,
+   13873,
+   64746,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-07-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   9823,
+   107719,
+   9372,
+   123104,
+   118410,
+   114316,
+   14476,
+   18832,
+   58450,
+   92275,
+   21040,
+   119880
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-07-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   9823,
+   107719,
+   9372,
+   123104,
+   118410,
+   114316,
+   14476,
+   18832,
+   58450,
+   92275,
+   21040,
+   119880
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-07-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   9823,
+   107719,
+   9372,
+   123104,
+   118410,
+   114316,
+   14476,
+   18832,
+   58450,
+   92275,
+   21040,
+   119880
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-07-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   9823,
+   107719,
+   9372,
+   123104,
+   118410,
+   114316,
+   14476,
+   18832,
+   58450,
+   92275,
+   21040,
+   119880
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-08-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   90137,
+   94,
+   85769,
+   72980,
+   104260,
+   90099,
+   39551,
+   70612,
+   70937,
+   82028,
+   33480,
+   35058,
+   85363,
+   7275,
+   90561,
+   76870,
+   71949,
+   127046,
+   14204,
+   124122
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-08-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   90137,
+   94,
+   85769,
+   72980,
+   104260,
+   90099,
+   39551,
+   70612,
+   70937,
+   82028,
+   33480,
+   35058,
+   85363,
+   7275,
+   90561,
+   76870,
+   71949,
+   127046,
+   14204,
+   124122
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-08-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   90137,
+   94,
+   85769,
+   72980,
+   104260,
+   90099,
+   39551,
+   70612,
+   70937,
+   82028,
+   33480,
+   35058,
+   85363,
+   7275,
+   90561,
+   76870,
+   71949,
+   127046,
+   14204,
+   124122
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-08-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   90137,
+   94,
+   85769,
+   72980,
+   104260,
+   90099,
+   39551,
+   70612,
+   70937,
+   82028,
+   33480,
+   35058,
+   85363,
+   7275,
+   90561,
+   76870,
+   71949,
+   127046,
+   14204,
+   124122
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-09-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   43556,
+   57794,
+   90454,
+   78730,
+   25152,
+   99662,
+   71370,
+   97446,
+   38636,
+   99944,
+   64650,
+   119920,
+   37427,
+   95268,
+   106510,
+   44232,
+   70796,
+   27459,
+   18976,
+   2995,
+   81722,
+   47496,
+   38043,
+   39807,
+   47954
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-09-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   43556,
+   57794,
+   90454,
+   78730,
+   25152,
+   99662,
+   71370,
+   97446,
+   38636,
+   99944,
+   64650,
+   119920,
+   37427,
+   95268,
+   106510,
+   44232,
+   70796,
+   27459,
+   18976,
+   2995,
+   81722,
+   47496,
+   38043,
+   39807,
+   47954
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-09-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   43556,
+   57794,
+   90454,
+   78730,
+   25152,
+   99662,
+   71370,
+   97446,
+   38636,
+   99944,
+   64650,
+   119920,
+   37427,
+   95268,
+   106510,
+   44232,
+   70796,
+   27459,
+   18976,
+   2995,
+   81722,
+   47496,
+   38043,
+   39807,
+   47954
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-09-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   43556,
+   57794,
+   90454,
+   78730,
+   25152,
+   99662,
+   71370,
+   97446,
+   38636,
+   99944,
+   64650,
+   119920,
+   37427,
+   95268,
+   106510,
+   44232,
+   70796,
+   27459,
+   18976,
+   2995,
+   81722,
+   47496,
+   38043,
+   39807,
+   47954
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-10-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   16676,
+   122549,
+   71252,
+   108788,
+   9792,
+   112529,
+   82529,
+   17766,
+   40845,
+   25871,
+   34955,
+   66159,
+   111214,
+   91872,
+   34417,
+   68910
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-10-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   16676,
+   122549,
+   71252,
+   108788,
+   9792,
+   112529,
+   82529,
+   17766,
+   40845,
+   25871,
+   34955,
+   66159,
+   111214,
+   91872,
+   34417,
+   68910
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-10-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   16676,
+   122549,
+   71252,
+   108788,
+   9792,
+   112529,
+   82529,
+   17766,
+   40845,
+   25871,
+   34955,
+   66159,
+   111214,
+   91872,
+   34417,
+   68910
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-10-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   16676,
+   122549,
+   71252,
+   108788,
+   9792,
+   112529,
+   82529,
+   17766,
+   40845,
+   25871,
+   34955,
+   66159,
+   111214,
+   91872,
+   34417,
+   68910
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-11-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   3036,
+   75552,
+   27727
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-11-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   3036,
+   75552,
+   27727
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-11-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   3036,
+   75552,
+   27727
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-11-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   3036,
+   75552,
+   27727
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-12-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   13458,
+   33361,
+   48996,
+   75612,
+   85917,
+   61549,
+   21724,
+   122183,
+   18377,
+   48551,
+   6992
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-12-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   13458,
+   33361,
+   48996,
+   75612,
+   85917,
+   61549,
+   21724,
+   122183,
+   18377,
+   48551,
+   6992
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-12-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   13458,
+   33361,
+   48996,
+   75612,
+   85917,
+   61549,
+   21724,
+   122183,
+   18377,
+   48551,
+   6992
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-12-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   13458,
+   33361,
+   48996,
+   75612,
+   85917,
+   61549,
+   21724,
+   122183,
+   18377,
+   48551,
+   6992
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-13-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   68825,
+   56964,
+   32223,
+   77131,
+   109660,
+   61283,
+   25599,
+   117788,
+   92626,
+   29155,
+   89516,
+   68894,
+   36711,
+   120987,
+   84876,
+   121866,
+   7487,
+   36537,
+   92149,
+   117415,
+   97117,
+   37556,
+   9327,
+   1072,
+   32691,
+   61259,
+   34755,
+   98551,
+   82387,
+   93020,
+   90350,
+   4179,
+   7475,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-13-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   68825,
+   56964,
+   32223,
+   77131,
+   109660,
+   61283,
+   25599,
+   117788,
+   92626,
+   29155,
+   89516,
+   68894,
+   36711,
+   120987,
+   84876,
+   121866,
+   7487,
+   36537,
+   92149,
+   117415,
+   97117,
+   37556,
+   9327,
+   1072,
+   32691,
+   61259,
+   34755,
+   98551,
+   82387,
+   93020,
+   90350,
+   4179,
+   7475,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-13-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   68825,
+   56964,
+   32223,
+   77131,
+   109660,
+   61283,
+   25599,
+   117788,
+   92626,
+   29155,
+   89516,
+   68894,
+   36711,
+   120987,
+   84876,
+   121866,
+   7487,
+   36537,
+   92149,
+   117415,
+   97117,
+   37556,
+   9327,
+   1072,
+   32691,
+   61259,
+   34755,
+   98551,
+   82387,
+   93020,
+   90350,
+   4179,
+   7475,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-13-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   68825,
+   56964,
+   32223,
+   77131,
+   109660,
+   61283,
+   25599,
+   117788,
+   92626,
+   29155,
+   89516,
+   68894,
+   36711,
+   120987,
+   84876,
+   121866,
+   7487,
+   36537,
+   92149,
+   117415,
+   97117,
+   37556,
+   9327,
+   1072,
+   32691,
+   61259,
+   34755,
+   98551,
+   82387,
+   93020,
+   90350,
+   4179,
+   7475,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-14-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   35270,
+   40662,
+   50484,
+   8697,
+   22951,
+   126057,
+   3923,
+   123636,
+   58653,
+   60587,
+   97277,
+   58035,
+   21900,
+   40988,
+   86806,
+   84495,
+   102644,
+   104213,
+   48555,
+   63756,
+   92753,
+   76389,
+   46582,
+   54300,
+   73444,
+   111122,
+   38931,
+   122290,
+   57691,
+   20587,
+   88189,
+   35217,
+   37911,
+   55034,
+   126174,
+   52666,
+   118016,
+   80421,
+   46844
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-14-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   35270,
+   40662,
+   50484,
+   8697,
+   22951,
+   126057,
+   3923,
+   123636,
+   58653,
+   60587,
+   97277,
+   58035,
+   21900,
+   40988,
+   86806,
+   84495,
+   102644,
+   104213,
+   48555,
+   63756,
+   92753,
+   76389,
+   46582,
+   54300,
+   73444,
+   111122,
+   38931,
+   122290,
+   57691,
+   20587,
+   88189,
+   35217,
+   37911,
+   55034,
+   126174,
+   52666,
+   118016,
+   80421,
+   46844
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-14-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   35270,
+   40662,
+   50484,
+   8697,
+   22951,
+   126057,
+   3923,
+   123636,
+   58653,
+   60587,
+   97277,
+   58035,
+   21900,
+   40988,
+   86806,
+   84495,
+   102644,
+   104213,
+   48555,
+   63756,
+   92753,
+   76389,
+   46582,
+   54300,
+   73444,
+   111122,
+   38931,
+   122290,
+   57691,
+   20587,
+   88189,
+   35217,
+   37911,
+   55034,
+   126174,
+   52666,
+   118016,
+   80421,
+   46844
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-14-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   35270,
+   40662,
+   50484,
+   8697,
+   22951,
+   126057,
+   3923,
+   123636,
+   58653,
+   60587,
+   97277,
+   58035,
+   21900,
+   40988,
+   86806,
+   84495,
+   102644,
+   104213,
+   48555,
+   63756,
+   92753,
+   76389,
+   46582,
+   54300,
+   73444,
+   111122,
+   38931,
+   122290,
+   57691,
+   20587,
+   88189,
+   35217,
+   37911,
+   55034,
+   126174,
+   52666,
+   118016,
+   80421,
+   46844
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-15-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   92501,
+   8341,
+   92919,
+   67446,
+   89878,
+   66138,
+   72699,
+   83322,
+   57181,
+   10174,
+   59073,
+   53325,
+   29680,
+   68883,
+   49353,
+   22110,
+   102782,
+   33218,
+   51798,
+   65647,
+   29839,
+   119679,
+   60936,
+   11797,
+   112263,
+   40231,
+   103108,
+   74132,
+   60180,
+   89494,
+   15415,
+   42329
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-15-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   92501,
+   8341,
+   92919,
+   67446,
+   89878,
+   66138,
+   72699,
+   83322,
+   57181,
+   10174,
+   59073,
+   53325,
+   29680,
+   68883,
+   49353,
+   22110,
+   102782,
+   33218,
+   51798,
+   65647,
+   29839,
+   119679,
+   60936,
+   11797,
+   112263,
+   40231,
+   103108,
+   74132,
+   60180,
+   89494,
+   15415,
+   42329
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-15-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   92501,
+   8341,
+   92919,
+   67446,
+   89878,
+   66138,
+   72699,
+   83322,
+   57181,
+   10174,
+   59073,
+   53325,
+   29680,
+   68883,
+   49353,
+   22110,
+   102782,
+   33218,
+   51798,
+   65647,
+   29839,
+   119679,
+   60936,
+   11797,
+   112263,
+   40231,
+   103108,
+   74132,
+   60180,
+   89494,
+   15415,
+   42329
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-15-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   92501,
+   8341,
+   92919,
+   67446,
+   89878,
+   66138,
+   72699,
+   83322,
+   57181,
+   10174,
+   59073,
+   53325,
+   29680,
+   68883,
+   49353,
+   22110,
+   102782,
+   33218,
+   51798,
+   65647,
+   29839,
+   119679,
+   60936,
+   11797,
+   112263,
+   40231,
+   103108,
+   74132,
+   60180,
+   89494,
+   15415,
+   42329
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-16-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   58500,
+   12026,
+   85189,
+   46285,
+   86032,
+   9911,
+   24629,
+   96609,
+   14375,
+   13655,
+   516,
+   42593,
+   18519,
+   20736,
+   31993
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-16-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   58500,
+   12026,
+   85189,
+   46285,
+   86032,
+   9911,
+   24629,
+   96609,
+   14375,
+   13655,
+   516,
+   42593,
+   18519,
+   20736,
+   31993
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-16-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   58500,
+   12026,
+   85189,
+   46285,
+   86032,
+   9911,
+   24629,
+   96609,
+   14375,
+   13655,
+   516,
+   42593,
+   18519,
+   20736,
+   31993
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-16-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   58500,
+   12026,
+   85189,
+   46285,
+   86032,
+   9911,
+   24629,
+   96609,
+   14375,
+   13655,
+   516,
+   42593,
+   18519,
+   20736,
+   31993
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-17-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   35528,
+   42904,
+   20068,
+   5197,
+   29409,
+   10054,
+   33041,
+   85660,
+   92873,
+   117436,
+   45087
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-17-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   35528,
+   42904,
+   20068,
+   5197,
+   29409,
+   10054,
+   33041,
+   85660,
+   92873,
+   117436,
+   45087
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-17-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   35528,
+   42904,
+   20068,
+   5197,
+   29409,
+   10054,
+   33041,
+   85660,
+   92873,
+   117436,
+   45087
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-17-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   35528,
+   42904,
+   20068,
+   5197,
+   29409,
+   10054,
+   33041,
+   85660,
+   92873,
+   117436,
+   45087
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-18-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   88646,
+   6265,
+   69751,
+   15257,
+   60648,
+   1720,
+   29459,
+   43593,
+   39143,
+   14850,
+   111295,
+   123075
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-18-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   88646,
+   6265,
+   69751,
+   15257,
+   60648,
+   1720,
+   29459,
+   43593,
+   39143,
+   14850,
+   111295,
+   123075
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-18-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   88646,
+   6265,
+   69751,
+   15257,
+   60648,
+   1720,
+   29459,
+   43593,
+   39143,
+   14850,
+   111295,
+   123075
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-18-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   88646,
+   6265,
+   69751,
+   15257,
+   60648,
+   1720,
+   29459,
+   43593,
+   39143,
+   14850,
+   111295,
+   123075
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-19-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   62464,
+   1741,
+   92862,
+   11584,
+   6372,
+   79166,
+   94731,
+   111746,
+   19350,
+   16,
+   113567,
+   36521,
+   27211,
+   6880,
+   10624,
+   8495,
+   115838,
+   89635,
+   14497,
+   59219,
+   85710,
+   68011,
+   118168,
+   29828,
+   92526,
+   63509,
+   60211,
+   44695,
+   107394,
+   45213,
+   115079,
+   69598,
+   25003,
+   58914,
+   57041,
+   116285
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-19-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   62464,
+   1741,
+   92862,
+   11584,
+   6372,
+   79166,
+   94731,
+   111746,
+   19350,
+   16,
+   113567,
+   36521,
+   27211,
+   6880,
+   10624,
+   8495,
+   115838,
+   89635,
+   14497,
+   59219,
+   85710,
+   68011,
+   118168,
+   29828,
+   92526,
+   63509,
+   60211,
+   44695,
+   107394,
+   45213,
+   115079,
+   69598,
+   25003,
+   58914,
+   57041,
+   116285
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-19-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   62464,
+   1741,
+   92862,
+   11584,
+   6372,
+   79166,
+   94731,
+   111746,
+   19350,
+   16,
+   113567,
+   36521,
+   27211,
+   6880,
+   10624,
+   8495,
+   115838,
+   89635,
+   14497,
+   59219,
+   85710,
+   68011,
+   118168,
+   29828,
+   92526,
+   63509,
+   60211,
+   44695,
+   107394,
+   45213,
+   115079,
+   69598,
+   25003,
+   58914,
+   57041,
+   116285
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-19-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   62464,
+   1741,
+   92862,
+   11584,
+   6372,
+   79166,
+   94731,
+   111746,
+   19350,
+   16,
+   113567,
+   36521,
+   27211,
+   6880,
+   10624,
+   8495,
+   115838,
+   89635,
+   14497,
+   59219,
+   85710,
+   68011,
+   118168,
+   29828,
+   92526,
+   63509,
+   60211,
+   44695,
+   107394,
+   45213,
+   115079,
+   69598,
+   25003,
+   58914,
+   57041,
+   116285
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-20-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   89710,
+   87743,
+   69371,
+   93717,
+   30206,
+   42558,
+   110224,
+   80120,
+   64824,
+   62814,
+   36194,
+   93409,
+   60258,
+   47396,
+   114789,
+   29909,
+   54875,
+   71459,
+   88329,
+   72663,
+   65198,
+   13378,
+   36162,
+   48334,
+   63207,
+   85053,
+   2037,
+   119819,
+   57346,
+   47270,
+   41593,
+   7751,
+   53715,
+   1775,
+   120470,
+   117423,
+   53936,
+   67569
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-20-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   89710,
+   87743,
+   69371,
+   93717,
+   30206,
+   42558,
+   110224,
+   80120,
+   64824,
+   62814,
+   36194,
+   93409,
+   60258,
+   47396,
+   114789,
+   29909,
+   54875,
+   71459,
+   88329,
+   72663,
+   65198,
+   13378,
+   36162,
+   48334,
+   63207,
+   85053,
+   2037,
+   119819,
+   57346,
+   47270,
+   41593,
+   7751,
+   53715,
+   1775,
+   120470,
+   117423,
+   53936,
+   67569
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-20-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   89710,
+   87743,
+   69371,
+   93717,
+   30206,
+   42558,
+   110224,
+   80120,
+   64824,
+   62814,
+   36194,
+   93409,
+   60258,
+   47396,
+   114789,
+   29909,
+   54875,
+   71459,
+   88329,
+   72663,
+   65198,
+   13378,
+   36162,
+   48334,
+   63207,
+   85053,
+   2037,
+   119819,
+   57346,
+   47270,
+   41593,
+   7751,
+   53715,
+   1775,
+   120470,
+   117423,
+   53936,
+   67569
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-20-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   89710,
+   87743,
+   69371,
+   93717,
+   30206,
+   42558,
+   110224,
+   80120,
+   64824,
+   62814,
+   36194,
+   93409,
+   60258,
+   47396,
+   114789,
+   29909,
+   54875,
+   71459,
+   88329,
+   72663,
+   65198,
+   13378,
+   36162,
+   48334,
+   63207,
+   85053,
+   2037,
+   119819,
+   57346,
+   47270,
+   41593,
+   7751,
+   53715,
+   1775,
+   120470,
+   117423,
+   53936,
+   67569
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-21-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   120074,
+   120090,
+   24761,
+   67011,
+   98659,
+   58713,
+   37568,
+   57180,
+   16117,
+   107798,
+   30857,
+   39408,
+   27557,
+   80484,
+   84326,
+   87980,
+   35652,
+   116928,
+   51739,
+   113744
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-21-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   120074,
+   120090,
+   24761,
+   67011,
+   98659,
+   58713,
+   37568,
+   57180,
+   16117,
+   107798,
+   30857,
+   39408,
+   27557,
+   80484,
+   84326,
+   87980,
+   35652,
+   116928,
+   51739,
+   113744
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-21-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   120074,
+   120090,
+   24761,
+   67011,
+   98659,
+   58713,
+   37568,
+   57180,
+   16117,
+   107798,
+   30857,
+   39408,
+   27557,
+   80484,
+   84326,
+   87980,
+   35652,
+   116928,
+   51739,
+   113744
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-21-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   120074,
+   120090,
+   24761,
+   67011,
+   98659,
+   58713,
+   37568,
+   57180,
+   16117,
+   107798,
+   30857,
+   39408,
+   27557,
+   80484,
+   84326,
+   87980,
+   35652,
+   116928,
+   51739,
+   113744
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-22-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   57590,
+   31553,
+   2267,
+   83947,
+   62127,
+   49254,
+   52625,
+   82543,
+   64975,
+   8185,
+   108865,
+   20605,
+   45400,
+   74432,
+   105456,
+   103322,
+   49469,
+   13111,
+   61347,
+   31518,
+   45702,
+   73553,
+   23858,
+   84517,
+   87196,
+   35939,
+   62394,
+   84231,
+   91973,
+   70743,
+   18029,
+   3919,
+   39773,
+   106782,
+   34213,
+   62637
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-22-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   57590,
+   31553,
+   2267,
+   83947,
+   62127,
+   49254,
+   52625,
+   82543,
+   64975,
+   8185,
+   108865,
+   20605,
+   45400,
+   74432,
+   105456,
+   103322,
+   49469,
+   13111,
+   61347,
+   31518,
+   45702,
+   73553,
+   23858,
+   84517,
+   87196,
+   35939,
+   62394,
+   84231,
+   91973,
+   70743,
+   18029,
+   3919,
+   39773,
+   106782,
+   34213,
+   62637
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-22-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   57590,
+   31553,
+   2267,
+   83947,
+   62127,
+   49254,
+   52625,
+   82543,
+   64975,
+   8185,
+   108865,
+   20605,
+   45400,
+   74432,
+   105456,
+   103322,
+   49469,
+   13111,
+   61347,
+   31518,
+   45702,
+   73553,
+   23858,
+   84517,
+   87196,
+   35939,
+   62394,
+   84231,
+   91973,
+   70743,
+   18029,
+   3919,
+   39773,
+   106782,
+   34213,
+   62637
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-22-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   57590,
+   31553,
+   2267,
+   83947,
+   62127,
+   49254,
+   52625,
+   82543,
+   64975,
+   8185,
+   108865,
+   20605,
+   45400,
+   74432,
+   105456,
+   103322,
+   49469,
+   13111,
+   61347,
+   31518,
+   45702,
+   73553,
+   23858,
+   84517,
+   87196,
+   35939,
+   62394,
+   84231,
+   91973,
+   70743,
+   18029,
+   3919,
+   39773,
+   106782,
+   34213,
+   62637
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-23-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   108790,
+   42396,
+   43193,
+   84064,
+   10892,
+   23932,
+   108419,
+   22255,
+   11904,
+   97540,
+   109663,
+   51384,
+   125575,
+   114135,
+   28101,
+   41734,
+   48721,
+   25479
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-23-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   108790,
+   42396,
+   43193,
+   84064,
+   10892,
+   23932,
+   108419,
+   22255,
+   11904,
+   97540,
+   109663,
+   51384,
+   125575,
+   114135,
+   28101,
+   41734,
+   48721,
+   25479
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-23-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   108790,
+   42396,
+   43193,
+   84064,
+   10892,
+   23932,
+   108419,
+   22255,
+   11904,
+   97540,
+   109663,
+   51384,
+   125575,
+   114135,
+   28101,
+   41734,
+   48721,
+   25479
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-23-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   108790,
+   42396,
+   43193,
+   84064,
+   10892,
+   23932,
+   108419,
+   22255,
+   11904,
+   97540,
+   109663,
+   51384,
+   125575,
+   114135,
+   28101,
+   41734,
+   48721,
+   25479
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-24-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   23093,
+   82274,
+   69743,
+   7317,
+   13785,
+   26168,
+   3669,
+   118907,
+   113924,
+   110006,
+   39700,
+   102157,
+   22194,
+   17954,
+   68588
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-24-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   23093,
+   82274,
+   69743,
+   7317,
+   13785,
+   26168,
+   3669,
+   118907,
+   113924,
+   110006,
+   39700,
+   102157,
+   22194,
+   17954,
+   68588
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-24-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   23093,
+   82274,
+   69743,
+   7317,
+   13785,
+   26168,
+   3669,
+   118907,
+   113924,
+   110006,
+   39700,
+   102157,
+   22194,
+   17954,
+   68588
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-24-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   23093,
+   82274,
+   69743,
+   7317,
+   13785,
+   26168,
+   3669,
+   118907,
+   113924,
+   110006,
+   39700,
+   102157,
+   22194,
+   17954,
+   68588
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-25-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   115652,
+   92337,
+   91594,
+   2346,
+   117552,
+   74236,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-25-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   115652,
+   92337,
+   91594,
+   2346,
+   117552,
+   74236,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-25-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   115652,
+   92337,
+   91594,
+   2346,
+   117552,
+   74236,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-25-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   115652,
+   92337,
+   91594,
+   2346,
+   117552,
+   74236,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-26-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   49467,
+   66832,
+   71156
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-26-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   49467,
+   66832,
+   71156
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-26-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   49467,
+   66832,
+   71156
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-26-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   49467,
+   66832,
+   71156
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-27-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   114959,
+   120011,
+   62919,
+   73996,
+   41533,
+   49231,
+   109003,
+   103269,
+   113981,
+   1889,
+   41632,
+   61307,
+   28590,
+   50356,
+   67792,
+   75062,
+   17430,
+   65997,
+   87660,
+   56599,
+   22460,
+   126348,
+   81385,
+   89595
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-27-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   114959,
+   120011,
+   62919,
+   73996,
+   41533,
+   49231,
+   109003,
+   103269,
+   113981,
+   1889,
+   41632,
+   61307,
+   28590,
+   50356,
+   67792,
+   75062,
+   17430,
+   65997,
+   87660,
+   56599,
+   22460,
+   126348,
+   81385,
+   89595
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-27-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   114959,
+   120011,
+   62919,
+   73996,
+   41533,
+   49231,
+   109003,
+   103269,
+   113981,
+   1889,
+   41632,
+   61307,
+   28590,
+   50356,
+   67792,
+   75062,
+   17430,
+   65997,
+   87660,
+   56599,
+   22460,
+   126348,
+   81385,
+   89595
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-27-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   114959,
+   120011,
+   62919,
+   73996,
+   41533,
+   49231,
+   109003,
+   103269,
+   113981,
+   1889,
+   41632,
+   61307,
+   28590,
+   50356,
+   67792,
+   75062,
+   17430,
+   65997,
+   87660,
+   56599,
+   22460,
+   126348,
+   81385,
+   89595
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-28-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   59911,
+   80585,
+   96992,
+   127868,
+   35462,
+   25361,
+   43458,
+   64895,
+   100845,
+   763,
+   52341,
+   85759,
+   74199,
+   66109,
+   70716,
+   99109,
+   20088,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-28-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   59911,
+   80585,
+   96992,
+   127868,
+   35462,
+   25361,
+   43458,
+   64895,
+   100845,
+   763,
+   52341,
+   85759,
+   74199,
+   66109,
+   70716,
+   99109,
+   20088,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-28-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   59911,
+   80585,
+   96992,
+   127868,
+   35462,
+   25361,
+   43458,
+   64895,
+   100845,
+   763,
+   52341,
+   85759,
+   74199,
+   66109,
+   70716,
+   99109,
+   20088,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-28-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   59911,
+   80585,
+   96992,
+   127868,
+   35462,
+   25361,
+   43458,
+   64895,
+   100845,
+   763,
+   52341,
+   85759,
+   74199,
+   66109,
+   70716,
+   99109,
+   20088,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-29-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   101156,
+   57645,
+   17137,
+   118233,
+   106990,
+   80615,
+   20580,
+   56400,
+   62355,
+   32580,
+   17658,
+   122775,
+   81490,
+   81400,
+   76418,
+   63927,
+   52518,
+   66799,
+   124532
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-29-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   101156,
+   57645,
+   17137,
+   118233,
+   106990,
+   80615,
+   20580,
+   56400,
+   62355,
+   32580,
+   17658,
+   122775,
+   81490,
+   81400,
+   76418,
+   63927,
+   52518,
+   66799,
+   124532
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-29-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   101156,
+   57645,
+   17137,
+   118233,
+   106990,
+   80615,
+   20580,
+   56400,
+   62355,
+   32580,
+   17658,
+   122775,
+   81490,
+   81400,
+   76418,
+   63927,
+   52518,
+   66799,
+   124532
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-29-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   101156,
+   57645,
+   17137,
+   118233,
+   106990,
+   80615,
+   20580,
+   56400,
+   62355,
+   32580,
+   17658,
+   122775,
+   81490,
+   81400,
+   76418,
+   63927,
+   52518,
+   66799,
+   124532
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-30-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   108008,
+   54590,
+   82083,
+   87846,
+   80010,
+   104210,
+   46999,
+   103517,
+   79891,
+   89750,
+   33629,
+   7973
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-30-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   108008,
+   54590,
+   82083,
+   87846,
+   80010,
+   104210,
+   46999,
+   103517,
+   79891,
+   89750,
+   33629,
+   7973
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-30-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   108008,
+   54590,
+   82083,
+   87846,
+   80010,
+   104210,
+   46999,
+   103517,
+   79891,
+   89750,
+   33629,
+   7973
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-30-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   108008,
+   54590,
+   82083,
+   87846,
+   80010,
+   104210,
+   46999,
+   103517,
+   79891,
+   89750,
+   33629,
+   7973
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-31-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   53103,
+   59354,
+   61523,
+   126706,
+   25196,
+   84924,
+   1676,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-31-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   53103,
+   59354,
+   61523,
+   126706,
+   25196,
+   84924,
+   1676,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-31-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   53103,
+   59354,
+   61523,
+   126706,
+   25196,
+   84924,
+   1676,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-31-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   53103,
+   59354,
+   61523,
+   126706,
+   25196,
+   84924,
+   1676,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-32-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   4818,
+   92296,
+   22848,
+   52234,
+   1059,
+   126662,
+   109506,
+   90248,
+   109347,
+   114859,
+   121501,
+   21277,
+   83695,
+   96399,
+   116967
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-32-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   4818,
+   92296,
+   22848,
+   52234,
+   1059,
+   126662,
+   109506,
+   90248,
+   109347,
+   114859,
+   121501,
+   21277,
+   83695,
+   96399,
+   116967
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-32-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   4818,
+   92296,
+   22848,
+   52234,
+   1059,
+   126662,
+   109506,
+   90248,
+   109347,
+   114859,
+   121501,
+   21277,
+   83695,
+   96399,
+   116967
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-32-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   4818,
+   92296,
+   22848,
+   52234,
+   1059,
+   126662,
+   109506,
+   90248,
+   109347,
+   114859,
+   121501,
+   21277,
+   83695,
+   96399,
+   116967
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-33-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   111204,
+   87025,
+   46085,
+   84340,
+   92549,
+   94461,
+   85998,
+   104083,
+   69490
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-33-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   111204,
+   87025,
+   46085,
+   84340,
+   92549,
+   94461,
+   85998,
+   104083,
+   69490
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-33-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   111204,
+   87025,
+   46085,
+   84340,
+   92549,
+   94461,
+   85998,
+   104083,
+   69490
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-33-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   111204,
+   87025,
+   46085,
+   84340,
+   92549,
+   94461,
+   85998,
+   104083,
+   69490
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-34-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   84940,
+   20852,
+   63437,
+   8647,
+   75925,
+   68431,
+   105500,
+   101590,
+   66585,
+   106256,
+   50102,
+   121017,
+   61089,
+   19915,
+   100082,
+   97764,
+   104355,
+   68306,
+   2761,
+   105913,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-34-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   84940,
+   20852,
+   63437,
+   8647,
+   75925,
+   68431,
+   105500,
+   101590,
+   66585,
+   106256,
+   50102,
+   121017,
+   61089,
+   19915,
+   100082,
+   97764,
+   104355,
+   68306,
+   2761,
+   105913,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-34-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   84940,
+   20852,
+   63437,
+   8647,
+   75925,
+   68431,
+   105500,
+   101590,
+   66585,
+   106256,
+   50102,
+   121017,
+   61089,
+   19915,
+   100082,
+   97764,
+   104355,
+   68306,
+   2761,
+   105913,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-34-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   84940,
+   20852,
+   63437,
+   8647,
+   75925,
+   68431,
+   105500,
+   101590,
+   66585,
+   106256,
+   50102,
+   121017,
+   61089,
+   19915,
+   100082,
+   97764,
+   104355,
+   68306,
+   2761,
+   105913,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-35-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   99534,
+   30240,
+   57223,
+   2183,
+   59730,
+   104514,
+   29177,
+   105879,
+   99807,
+   63004,
+   94402,
+   104881,
+   101557,
+   19923,
+   116698,
+   73562,
+   48015,
+   108277,
+   47865,
+   22365,
+   122374,
+   28581,
+   106585,
+   38752,
+   35938,
+   71198,
+   31287,
+   110130,
+   93901,
+   115575,
+   42227,
+   126055,
+   122428,
+   103140,
+   45225,
+   70095,
+   33549,
+   22884
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-35-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   99534,
+   30240,
+   57223,
+   2183,
+   59730,
+   104514,
+   29177,
+   105879,
+   99807,
+   63004,
+   94402,
+   104881,
+   101557,
+   19923,
+   116698,
+   73562,
+   48015,
+   108277,
+   47865,
+   22365,
+   122374,
+   28581,
+   106585,
+   38752,
+   35938,
+   71198,
+   31287,
+   110130,
+   93901,
+   115575,
+   42227,
+   126055,
+   122428,
+   103140,
+   45225,
+   70095,
+   33549,
+   22884
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-35-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   99534,
+   30240,
+   57223,
+   2183,
+   59730,
+   104514,
+   29177,
+   105879,
+   99807,
+   63004,
+   94402,
+   104881,
+   101557,
+   19923,
+   116698,
+   73562,
+   48015,
+   108277,
+   47865,
+   22365,
+   122374,
+   28581,
+   106585,
+   38752,
+   35938,
+   71198,
+   31287,
+   110130,
+   93901,
+   115575,
+   42227,
+   126055,
+   122428,
+   103140,
+   45225,
+   70095,
+   33549,
+   22884
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-35-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   99534,
+   30240,
+   57223,
+   2183,
+   59730,
+   104514,
+   29177,
+   105879,
+   99807,
+   63004,
+   94402,
+   104881,
+   101557,
+   19923,
+   116698,
+   73562,
+   48015,
+   108277,
+   47865,
+   22365,
+   122374,
+   28581,
+   106585,
+   38752,
+   35938,
+   71198,
+   31287,
+   110130,
+   93901,
+   115575,
+   42227,
+   126055,
+   122428,
+   103140,
+   45225,
+   70095,
+   33549,
+   22884
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-36-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   102927,
+   55388,
+   104917,
+   76786,
+   79934,
+   115971,
+   65362,
+   69670,
+   83478,
+   74133,
+   123632,
+   35160,
+   31138,
+   63435,
+   17720,
+   91423,
+   102273,
+   29329,
+   587,
+   73396,
+   26041,
+   18700,
+   82814,
+   52295,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-36-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   102927,
+   55388,
+   104917,
+   76786,
+   79934,
+   115971,
+   65362,
+   69670,
+   83478,
+   74133,
+   123632,
+   35160,
+   31138,
+   63435,
+   17720,
+   91423,
+   102273,
+   29329,
+   587,
+   73396,
+   26041,
+   18700,
+   82814,
+   52295,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-36-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   102927,
+   55388,
+   104917,
+   76786,
+   79934,
+   115971,
+   65362,
+   69670,
+   83478,
+   74133,
+   123632,
+   35160,
+   31138,
+   63435,
+   17720,
+   91423,
+   102273,
+   29329,
+   587,
+   73396,
+   26041,
+   18700,
+   82814,
+   52295,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-36-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   102927,
+   55388,
+   104917,
+   76786,
+   79934,
+   115971,
+   65362,
+   69670,
+   83478,
+   74133,
+   123632,
+   35160,
+   31138,
+   63435,
+   17720,
+   91423,
+   102273,
+   29329,
+   587,
+   73396,
+   26041,
+   18700,
+   82814,
+   52295,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-37-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   9806,
+   80066
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-37-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   9806,
+   80066
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-37-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   9806,
+   80066
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-37-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   9806,
+   80066
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-38-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   27757,
+   33838,
+   69300,
+   46681,
+   95855,
+   82568,
+   60630,
+   92514,
+   78024,
+   85289,
+   12046,
+   14752,
+   55357,
+   6037,
+   115457,
+   113838,
+   68009,
+   26479,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-38-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   27757,
+   33838,
+   69300,
+   46681,
+   95855,
+   82568,
+   60630,
+   92514,
+   78024,
+   85289,
+   12046,
+   14752,
+   55357,
+   6037,
+   115457,
+   113838,
+   68009,
+   26479,
+   124900
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-38-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   27757,
+   33838,
+   69300,
+   46681,
+   95855,
+   82568,
+   60630,
+   92514,
+   78024,
+   85289,
+   12046,
+   14752,
+   55357,
+   6037,
+   115457,
+   113838,
+   68009,
+   26479,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-38-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   27757,
+   33838,
+   69300,
+   46681,
+   95855,
+   82568,
+   60630,
+   92514,
+   78024,
+   85289,
+   12046,
+   14752,
+   55357,
+   6037,
+   115457,
+   113838,
+   68009,
+   26479,
+   124900
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-39-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   19322,
+   26499,
+   49832,
+   58818,
+   46778
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-39-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   19322,
+   26499,
+   49832,
+   58818,
+   46778
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-rand-39-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   19322,
+   26499,
+   49832,
+   58818,
+   46778
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-rand-39-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   124894,
+   19322,
+   26499,
+   49832,
+   58818,
+   46778
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-00-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   149
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-00-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   149
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-00-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   149
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-00-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   149
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-01-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   278,
+   390,
+   450,
+   507
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-01-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   278,
+   390,
+   450,
+   507
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-01-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   278,
+   390,
+   450,
+   507
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-01-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   278,
+   390,
+   450,
+   507
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-02-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   487,
+   173,
+   375,
+   406,
+   43,
+   321,
+   434,
+   262,
+   206,
+   27,
+   445,
+   254,
+   373,
+   366,
+   40,
+   505,
+   503,
+   240,
+   200
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-02-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   487,
+   173,
+   375,
+   406,
+   43,
+   321,
+   434,
+   262,
+   206,
+   27,
+   445,
+   254,
+   373,
+   366,
+   40,
+   505,
+   503,
+   240,
+   200
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-02-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   487,
+   173,
+   375,
+   406,
+   43,
+   321,
+   434,
+   262,
+   206,
+   27,
+   445,
+   254,
+   373,
+   366,
+   40,
+   505,
+   503,
+   240,
+   200
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-02-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   487,
+   173,
+   375,
+   406,
+   43,
+   321,
+   434,
+   262,
+   206,
+   27,
+   445,
+   254,
+   373,
+   366,
+   40,
+   505,
+   503,
+   240,
+   200
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-03-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   509,
+   31,
+   10,
+   494,
+   238,
+   20,
+   205,
+   498,
+   454,
+   408,
+   374,
+   191,
+   5,
+   130,
+   288,
+   102,
+   425,
+   236,
+   5,
+   58,
+   119,
+   18
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-03-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   509,
+   31,
+   10,
+   494,
+   238,
+   20,
+   205,
+   498,
+   454,
+   408,
+   374,
+   191,
+   5,
+   130,
+   288,
+   102,
+   425,
+   236,
+   5,
+   58,
+   119,
+   18
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-03-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   509,
+   31,
+   10,
+   494,
+   238,
+   20,
+   205,
+   498,
+   454,
+   408,
+   374,
+   191,
+   5,
+   130,
+   288,
+   102,
+   425,
+   236,
+   5,
+   58,
+   119,
+   18
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-03-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   509,
+   31,
+   10,
+   494,
+   238,
+   20,
+   205,
+   498,
+   454,
+   408,
+   374,
+   191,
+   5,
+   130,
+   288,
+   102,
+   425,
+   236,
+   5,
+   58,
+   119,
+   18
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-04-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   255,
+   292,
+   57,
+   184,
+   239,
+   93,
+   161,
+   175,
+   402,
+   186,
+   195,
+   418
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-04-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   255,
+   292,
+   57,
+   184,
+   239,
+   93,
+   161,
+   175,
+   402,
+   186,
+   195,
+   418
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-04-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   255,
+   292,
+   57,
+   184,
+   239,
+   93,
+   161,
+   175,
+   402,
+   186,
+   195,
+   418
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-04-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   255,
+   292,
+   57,
+   184,
+   239,
+   93,
+   161,
+   175,
+   402,
+   186,
+   195,
+   418
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-05-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   185,
+   166,
+   429,
+   16,
+   409,
+   377,
+   261,
+   118,
+   350,
+   378,
+   130,
+   437,
+   333,
+   337,
+   113,
+   98,
+   38,
+   309,
+   410,
+   58,
+   505,
+   127
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-05-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   185,
+   166,
+   429,
+   16,
+   409,
+   377,
+   261,
+   118,
+   350,
+   378,
+   130,
+   437,
+   333,
+   337,
+   113,
+   98,
+   38,
+   309,
+   410,
+   58,
+   505,
+   127
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-05-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   185,
+   166,
+   429,
+   16,
+   409,
+   377,
+   261,
+   118,
+   350,
+   378,
+   130,
+   437,
+   333,
+   337,
+   113,
+   98,
+   38,
+   309,
+   410,
+   58,
+   505,
+   127
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-05-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   185,
+   166,
+   429,
+   16,
+   409,
+   377,
+   261,
+   118,
+   350,
+   378,
+   130,
+   437,
+   333,
+   337,
+   113,
+   98,
+   38,
+   309,
+   410,
+   58,
+   505,
+   127
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-06-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   248,
+   105,
+   206,
+   481,
+   7,
+   495
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-06-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   248,
+   105,
+   206,
+   481,
+   7,
+   495
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-06-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   248,
+   105,
+   206,
+   481,
+   7,
+   495
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-06-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   248,
+   105,
+   206,
+   481,
+   7,
+   495
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-07-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   225,
+   3,
+   337,
+   200,
+   20,
+   343,
+   455,
+   376
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-07-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   225,
+   3,
+   337,
+   200,
+   20,
+   343,
+   455,
+   376
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-07-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   225,
+   3,
+   337,
+   200,
+   20,
+   343,
+   455,
+   376
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-07-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   225,
+   3,
+   337,
+   200,
+   20,
+   343,
+   455,
+   376
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-08-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   460,
+   169,
+   233,
+   7,
+   182,
+   358,
+   104,
+   20,
+   256,
+   422,
+   443,
+   351,
+   500,
+   142,
+   298,
+   452,
+   236,
+   462
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-08-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   460,
+   169,
+   233,
+   7,
+   182,
+   358,
+   104,
+   20,
+   256,
+   422,
+   443,
+   351,
+   500,
+   142,
+   298,
+   452,
+   236,
+   462
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-08-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   460,
+   169,
+   233,
+   7,
+   182,
+   358,
+   104,
+   20,
+   256,
+   422,
+   443,
+   351,
+   500,
+   142,
+   298,
+   452,
+   236,
+   462
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-08-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   460,
+   169,
+   233,
+   7,
+   182,
+   358,
+   104,
+   20,
+   256,
+   422,
+   443,
+   351,
+   500,
+   142,
+   298,
+   452,
+   236,
+   462
+  ],
+  "remove_special": true,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-09-remove0-render0",
+  "op": "decode",
+  "token_ids": [
+   102,
+   141,
+   389,
+   246,
+   33,
+   31,
+   275,
+   302,
+   231,
+   475,
+   351,
+   317,
+   432,
+   324,
+   282,
+   49,
+   305,
+   386,
+   285,
+   79,
+   12,
+   141,
+   166
+  ],
+  "remove_special": false,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-09-remove0-render1",
+  "op": "decode",
+  "token_ids": [
+   102,
+   141,
+   389,
+   246,
+   33,
+   31,
+   275,
+   302,
+   231,
+   475,
+   351,
+   317,
+   432,
+   324,
+   282,
+   49,
+   305,
+   386,
+   285,
+   79,
+   12,
+   141,
+   166
+  ],
+  "remove_special": false,
+  "render_special": true
+ },
+ {
+  "id": "x-dec-low-09-remove1-render0",
+  "op": "decode",
+  "token_ids": [
+   102,
+   141,
+   389,
+   246,
+   33,
+   31,
+   275,
+   302,
+   231,
+   475,
+   351,
+   317,
+   432,
+   324,
+   282,
+   49,
+   305,
+   386,
+   285,
+   79,
+   12,
+   141,
+   166
+  ],
+  "remove_special": true,
+  "render_special": false
+ },
+ {
+  "id": "x-dec-low-09-remove1-render1",
+  "op": "decode",
+  "token_ids": [
+   102,
+   141,
+   389,
+   246,
+   33,
+   31,
+   275,
+   302,
+   231,
+   475,
+   351,
+   317,
+   432,
+   324,
+   282,
+   49,
+   305,
+   386,
+   285,
+   79,
+   12,
+   141,
+   166
+  ],
+  "remove_special": true,
+  "render_special": true
+ }
+]

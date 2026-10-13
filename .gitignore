@@ -1,0 +1,11 @@
+**/target/
+__pycache__/
+*.pyc
+*.gguf
+*.safetensors
+.env
+.env.*
+tmp/
+evidence/raw/
+evidence/FAULT-LATCH.json
+cache/

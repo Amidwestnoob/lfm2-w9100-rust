@@ -1,0 +1,103 @@
+{
+  "authored_language": "rust",
+  "compiler_method": "Typed Rust computation IR lowered directly with rspirv 0.13 to SPIR-V 1.3 binary instructions; ash/Vulkan W9100 execution. Cooperative Q6_K packed decoding/FMA/reduction translated from retained llama.cpp MIT source. No shader-text frontend or opaque kernel assets.",
+  "operations": [
+    {
+      "name": "swiglu",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "f91ed9531d3a93db672b77f10b376120306a3658a69a05dea9f9e3f7d6274198"
+    },
+    {
+      "name": "f32_matmul",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "31a29f8b5e2686aa738845227bba931f984726ae5166c4d5f588b13219fdd69d"
+    },
+    {
+      "name": "rms_norm",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "1afed6878476c9f37671ae115b1da27e2f8a34e406d6237fdcdee5143879e9ab"
+    },
+    {
+      "name": "rope",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "9a74fe277590d3b4ee961ffd154a60bd4d3b098865ac1b39926670eba2a11364"
+    },
+    {
+      "name": "attention",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "2f77f36f1add20fce517d9ea3bea739a3bfefaff13079f829d4efbf63d836f2a"
+    },
+    {
+      "name": "q6k_matmul",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "5e1d5721cfcaea2c6ed98a5cf155ab5cd1e26411300876e7f5b3eeb3cec86ff1"
+    },
+    {
+      "name": "q6k_matmul_4expert",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "da8d2b2fd1d0056af9700acf5492111b947333973ff1c413bb4a8eb1b4e269c2"
+    }
+  ],
+  "additional_operations": [
+    {
+      "name": "embedding",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "f520ccce14078cf0453ef36181eccf867c47b9abeac924ac9a0fa194e2c61dcf"
+    },
+    {
+      "name": "residual",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "0e57f57e9d1520bdad9700112ec875aa00e629edab3a888d6f2b13a4a1908f46"
+    },
+    {
+      "name": "shortconv",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "514bed634a9211a49913c8d9b26ad6ae0ab67ef62022f8f5eb934c59eb6ab900"
+    },
+    {
+      "name": "route",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "1ac5a2db9715cb5955271060928468a85f9bf5d41b217624c0f4cb87c6204c4a"
+    },
+    {
+      "name": "combine",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "b326be520a22723953e61396f62ce34378fd42ad1eb94d7e1ee8375e67dd28f6"
+    },
+    {
+      "name": "kv_write",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "cbe6589c382391e774035a53b4457cf3b269925cd612362a1f1e306de6b25cbe"
+    },
+    {
+      "name": "q6k_routed",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "19b23cbccf26b91f59777c55b91a6e75a657e1eb9dd0bac220399f0f1221d7f6"
+    },
+    {
+      "name": "q6k_prompt",
+      "rust_source": "engine/src/kernels.rs",
+      "rust_source_sha256": "4a69efaaa8cef97b8aadc091723c852926658963bcd6c046e43b167fbda239fd",
+      "spirv_sha256": "45a7bdb948f441776cdf38cc1f4d7977ee4bf609d7355010e4b373a9ea6370e5"
+    }
+  ],
+  "support_sources": {
+    "engine/src/kernels/resident.rs": "a5fc431e8b45dd1bf4df02078d5725241a4cce18aee957e5f54ead7927f53bdf"
+  },
+  "additional_build_paths": [],
+  "validation_tools": "spirv-val --target-env vulkan1.1; generated modules are diagnostic evidence, never loaded by inference"
+}

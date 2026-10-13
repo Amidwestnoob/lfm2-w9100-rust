@@ -1,0 +1,134 @@
+{
+  "hardware": "AMD FirePro W9100 16GB / Hawaii / wave64, Linux RADV Vulkan",
+  "model": "LFM2.5-8B-A1B Q6_K",
+  "model_sha256": "7ccf57a2d410d8822d1560a1ca10c8318f3e15d6a8f6d42d1903d58e80ea20a6",
+  "engine_qualification_date": "2026-10-11",
+  "api_qualification_date": "2026-10-12",
+  "qualification_is_historical_not_a_new_GPU_benchmark": true,
+  "greedy_output_tokens_matched": 808,
+  "isolated_sessions": 24,
+  "total_context": 4096,
+  "persistent_engine_soak": {
+    "seconds": 600.068711156,
+    "requests": 804,
+    "model_loads": 1,
+    "exact_tokens": true,
+    "new_gpu_faults": 0
+  },
+  "persistent_HTTP_soak": {
+    "seconds_at_least": 600,
+    "requests": 10,
+    "model_loads": 1,
+    "exact_tokens": true,
+    "errors": 0,
+    "new_gpu_faults": 0
+  },
+  "warm_request_measurements": [
+    {
+      "prompt_tokens": 138,
+      "output_tokens": 256,
+      "native_configuration": "best_safe_native",
+      "baseline_ms": 4599.9130125,
+      "candidate_ms": 3454.6163955,
+      "reduction_fraction": 0.24898223377001305,
+      "nonregressing_pairs": 5,
+      "blocks": 5,
+      "pairs": [
+        [
+          4619.6197765,
+          3479.246756
+        ],
+        [
+          4543.7070305,
+          3388.770667
+        ],
+        [
+          4605.888686,
+          3458.064593
+        ],
+        [
+          4595.8780275,
+          3454.6163955
+        ],
+        [
+          4599.9130125,
+          3438.9438635
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "prompt_tokens": 1024,
+      "output_tokens": 256,
+      "native_configuration": "best_safe_native",
+      "baseline_ms": 10728.3850065,
+      "candidate_ms": 7426.1604885,
+      "reduction_fraction": 0.30780257382628273,
+      "nonregressing_pairs": 5,
+      "blocks": 5,
+      "pairs": [
+        [
+          10701.63439,
+          7426.1604885
+        ],
+        [
+          10750.9158245,
+          7375.9854205
+        ],
+        [
+          10746.7896535,
+          7425.563255
+        ],
+        [
+          10728.3850065,
+          7438.930203
+        ],
+        [
+          10717.036814,
+          7433.3814305
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "prompt_tokens": 3840,
+      "output_tokens": 256,
+      "native_configuration": "best_safe_native",
+      "baseline_ms": 30633.392554,
+      "candidate_ms": 24724.274250000002,
+      "reduction_fraction": 0.19289793951432277,
+      "nonregressing_pairs": 5,
+      "blocks": 5,
+      "pairs": [
+        [
+          30645.181693,
+          24604.826434000002
+        ],
+        [
+          30633.392554,
+          24724.274250000002
+        ],
+        [
+          30631.8630865,
+          24927.963708000003
+        ],
+        [
+          30620.646236499997,
+          24606.9537845
+        ],
+        [
+          30634.306914,
+          24805.327783
+        ]
+      ],
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "Specific model and device; greedy only.",
+    "Warm timing excludes model load.",
+    "Native long-context intermediate-score divergence remains unresolved; output parity is not universal internal numerical equivalence.",
+    "Published compute and tokenizer sources match the accepted deployment source; public-package changes are documentation, a test fixture lookup, machine-path redaction and additive existing API protocol source.",
+    "No weights or metadata/vocabulary test packet redistributed."
+  ]
+}

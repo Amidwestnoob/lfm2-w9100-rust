@@ -1,0 +1,21 @@
+[package]
+name = "w9100_tokenizer"
+version = "0.1.0"
+edition = "2021"
+description = "Pure-Rust CPU tokenizer, decoder, streaming decoder and chat formatter for the LFM2.5-8B-A1B GGUF (W9100 Rust stack)"
+publish = false
+
+[dependencies]
+minijinja = { version = "2", default-features = false, features = ["builtins", "macros", "multi_template", "serde", "std_collections", "preserve_order", "loader"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = { version = "1.0.151", features = ["preserve_order", "arbitrary_precision", "float_roundtrip"] }
+
+[[bin]]
+name = "w9100-tok"
+path = "src/bin/w9100-tok.rs"
+
+[profile.dev]
+opt-level = 1
+
+[profile.test]
+opt-level = 2

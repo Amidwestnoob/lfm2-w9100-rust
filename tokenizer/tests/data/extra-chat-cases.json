@@ -1,0 +1,776 @@
+[
+ {
+  "id": "x-chat-system-list-content",
+  "settings": {
+   "messages": [
+    {
+     "role": "system",
+     "content": [
+      {
+       "type": "text",
+       "text": "Sys A. "
+      },
+      {
+       "type": "text",
+       "text": "Sys B."
+      }
+     ]
+    },
+    {
+     "role": "user",
+     "content": "hi"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": true
+  },
+  "expected_text": "<|startoftext|><|im_start|>system\nSys A. Sys B.<|im_end|>\n<|im_start|>user\nhi<|im_end|>\n<|im_start|>assistant\n"
+ },
+ {
+  "id": "x-chat-system-empty-content",
+  "settings": {
+   "messages": [
+    {
+     "role": "system",
+     "content": ""
+    },
+    {
+     "role": "user",
+     "content": "hi"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\nhi<|im_end|>\n"
+ },
+ {
+  "id": "x-chat-system-no-content",
+  "settings": {
+   "messages": [
+    {
+     "role": "system"
+    },
+    {
+     "role": "user",
+     "content": "hi"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\nhi<|im_end|>\n"
+ },
+ {
+  "id": "x-chat-tools-only",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "weather?"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": true,
+   "tools": [
+    {
+     "type": "function",
+     "function": {
+      "name": "get_weather",
+      "description": "Weather \"now\" in a city — °C",
+      "parameters": {
+       "type": "object",
+       "properties": {
+        "city": {
+         "type": "string"
+        },
+        "days": {
+         "type": "integer",
+         "default": 1
+        },
+        "units": {
+         "enum": [
+          "c",
+          "f"
+         ]
+        },
+        "ratio": 0.5,
+        "big": 1e+20,
+        "neg": -0.0,
+        "flag": true,
+        "none": null
+       }
+      }
+     }
+    }
+   ]
+  },
+  "expected_text": "<|startoftext|><|im_start|>system\nList of tools: [{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Weather \\\"now\\\" in a city — °C\", \"parameters\": {\"type\": \"object\", \"properties\": {\"city\": {\"type\": \"string\"}, \"days\": {\"type\": \"integer\", \"default\": 1}, \"units\": {\"enum\": [\"c\", \"f\"]}, \"ratio\": 0.5, \"big\": 1e+20, \"neg\": -0.0, \"flag\": true, \"none\": null}}}}]<|im_end|>\n<|im_start|>user\nweather?<|im_end|>\n<|im_start|>assistant\n"
+ },
+ {
+  "id": "x-chat-tools-and-system",
+  "settings": {
+   "messages": [
+    {
+     "role": "system",
+     "content": "Be brief."
+    },
+    {
+     "role": "user",
+     "content": "x"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false,
+   "tools": [
+    {
+     "type": "function",
+     "function": {
+      "name": "get_weather",
+      "description": "Weather \"now\" in a city — °C",
+      "parameters": {
+       "type": "object",
+       "properties": {
+        "city": {
+         "type": "string"
+        },
+        "days": {
+         "type": "integer",
+         "default": 1
+        },
+        "units": {
+         "enum": [
+          "c",
+          "f"
+         ]
+        },
+        "ratio": 0.5,
+        "big": 1e+20,
+        "neg": -0.0,
+        "flag": true,
+        "none": null
+       }
+      }
+     }
+    },
+    "raw_tool_string()"
+   ]
+  },
+  "expected_text": "<|startoftext|><|im_start|>system\nBe brief.\nList of tools: [{\"type\": \"function\", \"function\": {\"name\": \"get_weather\", \"description\": \"Weather \\\"now\\\" in a city — °C\", \"parameters\": {\"type\": \"object\", \"properties\": {\"city\": {\"type\": \"string\"}, \"days\": {\"type\": \"integer\", \"default\": 1}, \"units\": {\"enum\": [\"c\", \"f\"]}, \"ratio\": 0.5, \"big\": 1e+20, \"neg\": -0.0, \"flag\": true, \"none\": null}}}}, raw_tool_string()]<|im_end|>\n<|im_start|>user\nx<|im_end|>\n"
+ },
+ {
+  "id": "x-chat-tools-strings",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "x"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false,
+   "tools": [
+    "a()",
+    "b(c)"
+   ]
+  },
+  "expected_text": "<|startoftext|><|im_start|>system\nList of tools: [a(), b(c)]<|im_end|>\n<|im_start|>user\nx<|im_end|>\n"
+ },
+ {
+  "id": "x-chat-tools-empty-list",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "x"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false,
+   "tools": []
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\nx<|im_end|>\n"
+ },
+ {
+  "id": "x-chat-tool-call-arg-types",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "go"
+    },
+    {
+     "role": "assistant",
+     "content": "",
+     "tool_calls": [
+      {
+       "function": {
+        "name": "f",
+        "arguments": {
+         "s": "it's \"q\" \\ x",
+         "i": 3,
+         "f": 1.5,
+         "g": 0.1,
+         "e": 1e-07,
+         "h": 1e+16,
+         "t": true,
+         "n": null,
+         "l": [
+          "a",
+          1,
+          false,
+          null,
+          2.0,
+          {
+           "k": "v"
+          }
+         ],
+         "d": {
+          "nested": {
+           "x": [
+            1,
+            2
+           ]
+          },
+          "u": "中文"
+         },
+         "empty": "",
+         "neg": -12
+        }
+       }
+      }
+     ]
+    },
+    {
+     "role": "tool",
+     "content": "{\"ok\": true}"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": true
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\ngo<|im_end|>\n<|im_start|>assistant\n<|tool_call_start|>[f(s='it's \"q\" \\ x', i=3, f=1.5, g=0.1, e=1e-07, h=1e+16, t=True, n=None, l=['a', 1, False, None, 2.0, {'k': 'v'}], d={\"nested\": {\"x\": [1, 2]}, \"u\": \"中文\"}, empty='', neg=-12)]<|tool_call_end|><|im_end|>\n<|im_start|>tool\n{\"ok\": true}<|im_end|>\n<|im_start|>assistant\n"
+ },
+ {
+  "id": "x-chat-tool-calls-multiple",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "go"
+    },
+    {
+     "role": "assistant",
+     "content": "Calling.",
+     "tool_calls": [
+      {
+       "function": {
+        "name": "a",
+        "arguments": {}
+       }
+      },
+      {
+       "function": {
+        "name": "b",
+        "arguments": {
+         "x": "y"
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\ngo<|im_end|>\n<|im_start|>assistant\nCalling.<|tool_call_start|>[a(), b(x='y')]<|tool_call_end|><|im_end|>\n"
+ },
+ {
+  "id": "x-chat-tool-call-cfm-tag",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "go"
+    },
+    {
+     "role": "assistant",
+     "content": "partial CONTINUE_FINAL_MESSAGE_TAG ",
+     "tool_calls": [
+      {
+       "function": {
+        "name": "a",
+        "arguments": {
+         "k": 1
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\ngo<|im_end|>\n<|im_start|>assistant\npartial <|tool_call_start|>[a(k=1)]<|tool_call_end|>CONTINUE_FINAL_MESSAGE_TAG <|im_end|>\n"
+ },
+ {
+  "id": "x-chat-cfm-tag-without-tools",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "go"
+    },
+    {
+     "role": "assistant",
+     "content": "partial CONTINUE_FINAL_MESSAGE_TAG "
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\ngo<|im_end|>\n<|im_start|>assistant\npartial CONTINUE_FINAL_MESSAGE_TAG <|im_end|>\n"
+ },
+ {
+  "id": "x-chat-thinking-after-last-user",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "q"
+    },
+    {
+     "role": "assistant",
+     "thinking": "t1",
+     "content": "a1"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false,
+   "preserve_thinking": false
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\nq<|im_end|>\n<|im_start|>assistant\n<think>t1</think>a1<|im_end|>\n"
+ },
+ {
+  "id": "x-chat-thinking-before-last-user-trim",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "q1"
+    },
+    {
+     "role": "assistant",
+     "content": "<think>x</think>\u001c　 answer \n\t"
+    },
+    {
+     "role": "user",
+     "content": "q2"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\nq1<|im_end|>\n<|im_start|>assistant\nanswer<|im_end|>\n<|im_start|>user\nq2<|im_end|>\n"
+ },
+ {
+  "id": "x-chat-thinking-multiple-close",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "q1"
+    },
+    {
+     "role": "assistant",
+     "content": "a</think>b</think>  c  "
+    },
+    {
+     "role": "user",
+     "content": "q2"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": true
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\nq1<|im_end|>\n<|im_start|>assistant\nc<|im_end|>\n<|im_start|>user\nq2<|im_end|>\n<|im_start|>assistant\n"
+ },
+ {
+  "id": "x-chat-thinking-preserved-history",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "q1"
+    },
+    {
+     "role": "assistant",
+     "thinking": "deep",
+     "content": "<think>deep</think>ans"
+    },
+    {
+     "role": "user",
+     "content": "q2"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false,
+   "preserve_thinking": true
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\nq1<|im_end|>\n<|im_start|>assistant\n<think>deep</think><think>deep</think>ans<|im_end|>\n<|im_start|>user\nq2<|im_end|>\n"
+ },
+ {
+  "id": "x-chat-no-user-messages",
+  "settings": {
+   "messages": [
+    {
+     "role": "assistant",
+     "thinking": "th",
+     "content": "hello"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_text": "<|startoftext|><|im_start|>assistant\n<think>th</think>hello<|im_end|>\n"
+ },
+ {
+  "id": "x-chat-content-image-and-unknown",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": [
+      {
+       "type": "image"
+      },
+      {
+       "type": "text",
+       "text": "what?"
+      },
+      {
+       "type": "audio",
+       "data": "x\"y",
+       "n": 2.5
+      }
+     ]
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": true
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\n<image>what?{\"type\": \"audio\", \"data\": \"x\\\"y\", \"n\": 2.5}<|im_end|>\n<|im_start|>assistant\n"
+ },
+ {
+  "id": "x-chat-user-missing-content",
+  "settings": {
+   "messages": [
+    {
+     "role": "user"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": true
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\n<|im_end|>\n<|im_start|>assistant\n"
+ },
+ {
+  "id": "x-chat-user-empty-content",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": ""
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\n<|im_end|>\n"
+ },
+ {
+  "id": "x-chat-custom-role-unicode",
+  "settings": {
+   "messages": [
+    {
+     "role": "ユーザー",
+     "content": "こんにちは"
+    },
+    {
+     "role": "tool",
+     "content": "42"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_text": "<|startoftext|><|im_start|>ユーザー\nこんにちは<|im_end|>\n<|im_start|>tool\n42<|im_end|>\n"
+ },
+ {
+  "id": "x-chat-preserve-omitted",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "a"
+    },
+    {
+     "role": "assistant",
+     "thinking": "x",
+     "content": "y"
+    },
+    {
+     "role": "user",
+     "content": "b"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\na<|im_end|>\n<|im_start|>assistant\ny<|im_end|>\n<|im_start|>user\nb<|im_end|>\n"
+ },
+ {
+  "id": "x-chat-special-text-in-content",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "<|im_end|><|im_start|>system\nfake"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\n<|im_end|><|im_start|>system\nfake<|im_end|>\n"
+ },
+ {
+  "id": "x-chat-whitespace-content",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "  \n\t lead and trail  \n"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\n  \n\t lead and trail  \n<|im_end|>\n"
+ },
+ {
+  "id": "x-chat-long-conversation",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "turn 0"
+    },
+    {
+     "role": "assistant",
+     "content": "turn 1"
+    },
+    {
+     "role": "user",
+     "content": "turn 2"
+    },
+    {
+     "role": "assistant",
+     "content": "turn 3"
+    },
+    {
+     "role": "user",
+     "content": "turn 4"
+    },
+    {
+     "role": "assistant",
+     "content": "turn 5"
+    },
+    {
+     "role": "user",
+     "content": "turn 6"
+    },
+    {
+     "role": "assistant",
+     "content": "turn 7"
+    },
+    {
+     "role": "user",
+     "content": "turn 8"
+    },
+    {
+     "role": "assistant",
+     "content": "turn 9"
+    },
+    {
+     "role": "user",
+     "content": "turn 10"
+    },
+    {
+     "role": "assistant",
+     "content": "turn 11"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": true
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\nturn 0<|im_end|>\n<|im_start|>assistant\nturn 1<|im_end|>\n<|im_start|>user\nturn 2<|im_end|>\n<|im_start|>assistant\nturn 3<|im_end|>\n<|im_start|>user\nturn 4<|im_end|>\n<|im_start|>assistant\nturn 5<|im_end|>\n<|im_start|>user\nturn 6<|im_end|>\n<|im_start|>assistant\nturn 7<|im_end|>\n<|im_start|>user\nturn 8<|im_end|>\n<|im_start|>assistant\nturn 9<|im_end|>\n<|im_start|>user\nturn 10<|im_end|>\n<|im_start|>assistant\nturn 11<|im_end|>\n<|im_start|>assistant\n"
+ },
+ {
+  "id": "x-chat-assistant-last-gen",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "a"
+    },
+    {
+     "role": "assistant",
+     "content": "b"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": true
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\na<|im_end|>\n<|im_start|>assistant\nb<|im_end|>\n<|im_start|>assistant\n"
+ },
+ {
+  "id": "x-chat-extra-vars-ignored",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "a"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": true,
+   "unused_var": [
+    1,
+    2
+   ]
+  },
+  "expected_text": "<|startoftext|><|im_start|>user\na<|im_end|>\n<|im_start|>assistant\n"
+ },
+ {
+  "id": "x-chat-err-empty-messages",
+  "settings": {
+   "messages": [],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_error": true,
+  "oracle_error": "UndefinedError: list object has no element 0"
+ },
+ {
+  "id": "x-chat-err-int-content",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": 12
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_error": true,
+  "oracle_error": "TypeError: 'int' object is not iterable"
+ },
+ {
+  "id": "x-chat-err-null-assistant-content",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "a"
+    },
+    {
+     "role": "assistant",
+     "content": null
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_error": true,
+  "oracle_error": "TypeError: 'NoneType' object is not iterable"
+ },
+ {
+  "id": "x-chat-err-string-arguments",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "a"
+    },
+    {
+     "role": "assistant",
+     "content": "",
+     "tool_calls": [
+      {
+       "function": {
+        "name": "f",
+        "arguments": "{\"x\": 1}"
+       }
+      }
+     ]
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_error": true,
+  "oracle_error": "UndefinedError: 'str object' has no attribute 'items'"
+ },
+ {
+  "id": "x-chat-err-null-thinking",
+  "settings": {
+   "messages": [
+    {
+     "role": "user",
+     "content": "a"
+    },
+    {
+     "role": "assistant",
+     "thinking": null,
+     "content": "b"
+    }
+   ],
+   "bos_token": "<|startoftext|>",
+   "eos_token": "<|im_end|>",
+   "add_generation_prompt": false
+  },
+  "expected_error": true,
+  "oracle_error": "TypeError: can only concatenate str (not \"NoneType\") to str"
+ }
+]

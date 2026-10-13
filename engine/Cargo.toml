@@ -1,0 +1,38 @@
+[package]
+name = "lfm2-engine"
+version = "0.1.0"
+edition = "2021"
+description = "Rust-host ash/Vulkan inference engine for LFM2.5-8B-A1B (Q6_K) on the AMD FirePro W9100"
+
+[dependencies]
+parser = { path = "../parser" }
+ash = "0.38"
+w9100_tokenizer = { path = "../tokenizer" }
+rspirv = "0.13"
+spirv = "0.4"
+bytemuck = { version = "1", features = ["derive"] }
+half = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+anyhow = "1"
+sha2 = "0.10"
+hex = "0.4"
+
+[[bin]]
+name = "lfm2-greedy"
+path = "src/main.rs"
+
+[[bin]]
+name = "q6_check"
+path = "src/bin/q6_check.rs"
+
+[[bin]]
+name = "kernel_check"
+path = "src/bin/kernel_check.rs"
+
+[profile.release]
+opt-level = 3
+debug = false
+
+[profile.dev]
+opt-level = 1

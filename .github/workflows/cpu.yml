@@ -1,0 +1,16 @@
+name: Self-contained CPU checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  cpu:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@1.98.1
+      - run: sudo apt-get update && sudo apt-get install -y libvulkan1
+      - run: cargo build --locked --release --manifest-path engine/Cargo.toml --bins
+      - run: cargo test --locked --manifest-path engine/Cargo.toml --lib --test dequant_mirror --bin lfm2-greedy
+      - run: cargo test --locked --manifest-path parser/Cargo.toml --lib
+      - run: cargo test --locked --manifest-path tokenizer/Cargo.toml --lib
+      - run: mkdir -p tmp evidence && python3 tests/test_service_cpu.py

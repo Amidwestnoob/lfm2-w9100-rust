@@ -1,0 +1,105 @@
+[
+  {
+    "id": "quoted-generation",
+    "template": "{{ \"{% generation %}\" }}",
+    "settings": {},
+    "expected_text": "{% generation %}"
+  },
+  {
+    "id": "quoted-endgeneration",
+    "template": "{% set x = \"{% endgeneration %}\" %}{{ x }}",
+    "settings": {},
+    "expected_text": "{% endgeneration %}"
+  },
+  {
+    "id": "raw-generation",
+    "template": "{% raw %}{% generation %}{{ x }}{% endgeneration %}{% endraw %}",
+    "settings": {},
+    "expected_text": "{% generation %}{{ x }}{% endgeneration %}"
+  },
+  {
+    "id": "comment-generation",
+    "template": "{# {% generation %} #}{% generation %}ok{% endgeneration %}",
+    "settings": {},
+    "expected_text": "ok"
+  },
+  {
+    "id": "scope-generation",
+    "template": "{% set x = \"outer\" %}{% generation %}{% set x = \"inner\" %}{{ x }}{% endgeneration %}{{ x }}",
+    "settings": {},
+    "expected_text": "innerouter"
+  },
+  {
+    "id": "split-max-one",
+    "template": "{{ s.split(n, 1)|tojson }}",
+    "settings": {
+      "s": "  a b  ",
+      "n": null
+    },
+    "expected_text": "[\"a\", \"b  \"]"
+  },
+  {
+    "id": "split-max-zero",
+    "template": "{{ s.split(n, 0)|tojson }}",
+    "settings": {
+      "s": "  a b  ",
+      "n": null
+    },
+    "expected_text": "[\"a b  \"]"
+  },
+  {
+    "id": "split-literal-none",
+    "template": "{{ s.split(none, 1)|tojson }}",
+    "settings": {
+      "s": "  a b  "
+    },
+    "expected_text": "[\"a\", \"b  \"]"
+  },
+  {
+    "id": "strip-null",
+    "template": "{{ s.strip(n) }}",
+    "settings": {
+      "s": "  a b  ",
+      "n": null
+    },
+    "expected_text": "a b"
+  },
+  {
+    "id": "lstrip-null",
+    "template": "{{ s.lstrip(n) }}",
+    "settings": {
+      "s": "  a b  ",
+      "n": null
+    },
+    "expected_text": "a b  "
+  },
+  {
+    "id": "rstrip-null",
+    "template": "{{ s.rstrip(n) }}",
+    "settings": {
+      "s": "  a b  ",
+      "n": null
+    },
+    "expected_text": "  a b"
+  },
+  {
+    "id": "trim-null",
+    "template": "{{ s|trim(n) }}",
+    "settings": {
+      "s": "  a b  ",
+      "n": null
+    },
+    "expected_text": "a b"
+  },
+  {
+    "id": "escaping",
+    "template": "{{ x|tojson }}|{{ x|string }}",
+    "settings": {
+      "x": {
+        "s": "<>&\"'\\\n",
+        "n": null
+      }
+    },
+    "expected_text": "{\"s\": \"<>&\\\"'\\\\\\n\", \"n\": null}|{'s': '<>&\"\\'\\\\\\n', 'n': None}"
+  }
+]
